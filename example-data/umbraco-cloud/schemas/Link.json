@@ -1,0 +1,17 @@
+{
+	"viewHandle": "Link",
+	"sourceEntityTypes": [
+		"contentPage",
+		"product",
+		"home"
+	],
+	"properties": {
+		"url": {
+			"type": "string",
+			"name": "url",
+			"value": {
+				"$exp": "{url}"
+			}
+		}
+	}
+}

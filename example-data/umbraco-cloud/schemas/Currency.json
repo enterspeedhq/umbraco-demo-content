@@ -1,0 +1,13 @@
+{
+	"sourceEntityTypes": [
+		"products"
+	],
+	"properties": {
+		"defaultCurrency": {
+			"type": "string",
+			"value": {
+				"$exp": "{properties.defaultCurrency.items[0]}"
+			}
+		}
+	}
+}

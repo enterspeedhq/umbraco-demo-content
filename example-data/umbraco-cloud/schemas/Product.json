@@ -1,0 +1,49 @@
+{
+	"sourceEntityTypes": [
+		"product"
+	],
+	"route": {
+		"url": {
+			"$exp": "{url}"
+		}
+	},
+	"properties": {
+		"type": {
+			"type": "string",
+			"value": {
+				"$exp": "product"
+			}
+		},
+		"name": {
+			"type": "string",
+			"value": {
+				"$exp": "{properties.productName}"
+			}
+		},
+		"description": {
+			"type": "string",
+			"value": {
+				"$exp": "{properties.description}"
+			}
+		},
+		"price": {
+			"type": "number",
+			"value": {
+				"$exp": "{properties.price}"
+			}
+		},
+		"currency": {
+			"type": "reference",
+			"gid": {
+				"$exp": "{originParentId}"
+			},
+			"view": "currency"
+		},
+		"href": {
+			"type": "string",
+			"value": {
+				"$exp": "{url}"
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"sourceEntityTypes": [
+		"contentPage"
+	],
+	"route": {
+		"url": {
+			"$exp": "{url}"
+		}
+	},
+	"properties": {
+		"type": {
+			"type": "string",
+			"value": {
+				"$exp": "{type}"
+			}
+		},
+		"headline": {
+			"type": "string",
+			"value": {
+				"$exp": "{properties.pageTitle}"
+			}
+		},
+		"seoMetaDescription": {
+			"type": "string",
+			"value": {
+				"$exp": "{properties.seoMetaDescription}"
+			}
+		},
+		"blocks": {
+			"type": "array",
+			"input": {
+				"$exp": "{properties.contentBlocks}"
+			},
+			"items": {
+				"type": "partial",
+				"input": {
+					"$exp": "{item}"
+				},
+				"viewHandle": {
+					"$exp": "umbraco-{item.contentType}"
+				}
+			}
+		}
+	}
+}

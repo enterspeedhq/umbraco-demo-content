@@ -1,0 +1,74 @@
+{
+	"sourceEntityTypes": [
+		"contentPage",
+		"products"
+	],
+	"properties": {
+		"label": {
+			"type": "string",
+			"value": {
+				"$exp": "{properties.pageTitle}"
+			}
+		},
+		"type": {
+			"type": "string",
+			"value": {
+				"$exp": "{properties.type}"
+			}
+		},
+		"href": {
+			"type": "string",
+			"value": {
+				"$exp": "{url}"
+			}
+		},
+		"sortOrder": {
+			"type": "number",
+			"value": {
+				"$exp": "{properties.metaData.sortOrder}"
+			}
+		},
+		"children": {
+			"type": "array",
+			"input": {
+				"$lookup": {
+					"operator": "equals",
+					"sourceEntityProperty": "originParentId",
+					"sourceEntityType": "contentPage",
+					"matchValue": {
+						"$exp": "{originId}"
+					}
+				}
+			},
+			"items": {
+				"type": "object",
+				"properties": {
+					"label": {
+						"type": "string",
+						"value": {
+							"$exp": "{item.properties.pageTitle}"
+						}
+					},
+					"type": {
+						"type": "string",
+						"value": {
+							"$exp": "{item.type}"
+						}
+					},
+					"href": {
+						"type": "string",
+						"value": {
+							"$exp": "{item.url}"
+						}
+					},
+					"sortOrder": {
+						"type": "number",
+						"value": {
+							"$exp": "{item.properties.metaData.sortOrder}"
+						}
+					}
+				}
+			}
+		}
+	}
+}
