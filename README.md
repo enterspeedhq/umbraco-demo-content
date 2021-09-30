@@ -13,7 +13,7 @@ Using Enterspeed gives us the flexibility to design and optimize our front-end a
 ### Umbraco
 **:warning: This demo uses Umbraco V8.**
 
-Sign up for a Umbraco Cloud account.
+Sign up for a Umbraco Cloud account. Install and configure the Enterspeed Umbraco package as described in step 1 in the [tutorial](https://support.enterspeed.com/support/solutions/articles/80000943546-setting-up-enterspeed-with-umbraco-cloud-and-next-js "tutorial").
 
 Download the "enterspeed-demo-umbraco-content.zip"-file in the folder "example-data/umbraco-cloud/content".
 
