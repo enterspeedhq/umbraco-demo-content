@@ -5,22 +5,25 @@ import {
   Text,
   Button,
   Stack,
-  Link
+  Link,
 } from '@chakra-ui/react'
+import Image from 'next/image'
+import heroImage from '../../public/magic-key-bg.jpg';
 
 export default function Hero ({
   block
 }) {
   return (
-    <Box
-      backgroundImage="url('../magic-key-bg.jpg')"
-      bgPosition="center"
-      bgRepeat="no-repeat"
-      bgSize="cover"
-    >
+    <Box pos="relative">
+      <Image
+        src={heroImage}
+        width="100%"
+        height="100%"
+        layout="fill"
+      />
       <Box
         bg='rgb(0 0 0 / 75%)'
-        zIndex='2'
+        pos="relative"
       >
         <Container maxW={'3xl'}>
           <Stack
