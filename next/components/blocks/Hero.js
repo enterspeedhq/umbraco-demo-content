@@ -5,10 +5,10 @@ import {
   Text,
   Button,
   Stack,
-  Link,
+  Link
 } from '@chakra-ui/react'
 import Image from 'next/image'
-import heroImage from '../../public/magic-key-bg.jpg';
+import heroImage from '../../public/magic-key-bg.jpg'
 
 export default function Hero ({
   block
@@ -16,6 +16,7 @@ export default function Hero ({
   return (
     <Box pos="relative">
       <Image
+        alt="Fairy tale magic key"
         src={heroImage}
         width="100%"
         height="100%"
