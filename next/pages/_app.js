@@ -1,11 +1,20 @@
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import TopNav from '../components/TopNav'
 import '@fontsource/henny-penny'
 import '@fontsource/gentium-book-basic'
 import Head from 'next/head'
 import Footer from '../components/Footer'
-import '../styles/global.css'
 import { getByHandle } from '../lib/enterspeed'
+
+const theme = extendTheme({
+  styles: {
+    global: () => ({
+      body: {
+        bg: "orange.100"
+      },
+    }),
+  },
+})
 
 function App ({ Component, pageProps, navigation }) {
   return (
@@ -30,7 +39,7 @@ function App ({ Component, pageProps, navigation }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <ChakraProvider>
+      <ChakraProvider theme={theme}>
         <TopNav nav={navigation.navigationItems} />
         <Component {...pageProps} />
         <Footer />
