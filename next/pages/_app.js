@@ -10,10 +10,10 @@ const theme = extendTheme({
   styles: {
     global: () => ({
       body: {
-        bg: "orange.100"
-      },
-    }),
-  },
+        bg: 'orange.100'
+      }
+    })
+  }
 })
 
 function App ({ Component, pageProps, navigation }) {

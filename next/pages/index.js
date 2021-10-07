@@ -1,7 +1,7 @@
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic'
 import { getByUrl } from '../lib/enterspeed'
 
-const Entity = dynamic(import('../components/Entity'));
+const Entity = dynamic(import('../components/Entity'))
 
 export async function getServerSideProps () {
   const data = await getByUrl(encodeURIComponent('/'))
