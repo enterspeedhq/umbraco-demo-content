@@ -6,7 +6,7 @@
 		"defaultCurrency": {
 			"type": "string",
 			"value": {
-				"$exp": "{properties.defaultCurrency.items[0]}"
+				"$exp": "{properties.defaultCurrency[0]}"
 			}
 		}
 	}

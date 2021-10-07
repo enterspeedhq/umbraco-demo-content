@@ -7,13 +7,13 @@ All of our content has been synced from Umbraco Cloud to an Enterspeed-project. 
 
 Using Enterspeed gives us the flexibility to design and optimize our front-end application as we please, while still keeping the same editor experience.
 
-**:bulb: Tip: [You can view the full tutorial on our support page](https://support.enterspeed.com/support/solutions/articles/80000943546-setting-up-enterspeed-with-umbraco-cloud-and-next-js "You can view the full tutorial on our support page").**
+**:bulb: Tip: [You can view the full tutorial on our Docs site](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/intro/ "You can view the full tutorial on our Docs site").**
 
 ## How to set up and use
 ### Umbraco
 **:warning: This demo uses Umbraco V8.**
 
-Sign up for a Umbraco Cloud account. Install and configure the Enterspeed Umbraco package as described in step 1 in the [tutorial](https://support.enterspeed.com/support/solutions/articles/80000943546-setting-up-enterspeed-with-umbraco-cloud-and-next-js "tutorial").
+Sign up for a Umbraco Cloud account. Install and configure the Enterspeed Umbraco package as described in the [tutorial](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/intro/ "tutorial").
 
 Download the "enterspeed-demo-umbraco-content.zip"-file in the folder "example-data/umbraco-cloud/content".
 
@@ -28,14 +28,14 @@ Check the "Include unpublished content items" option, and click the "Publish wit
 This will publish the entire site, and send the data to Enterspeed.
 
 ### Enterspeed
-Set up an Enterspeed project ([read the tutorial here](https://support.enterspeed.com/support/solutions/articles/80000943546-setting-up-enterspeed-with-umbraco-cloud-and-next-js "read the tutorial here")).
+Set up an Enterspeed project and [configure your Sources & Environments](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/sources-environments "Configure your Sources & Environments").
 
-Create the schemas and partial schema from example-data/umbraco-cloud/schemas and example-data/umbraco-cloud/partial-schemas in Enterspeed and publish them.
+Create the schemas and partial schema from [example-data/umbraco-cloud/schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/umbraco-cloud/schemas) and [example-data/umbraco-cloud/partial-schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/umbraco-cloud/partial-schemas) in Enterspeed and publish them.
 
 ### Next.js
 Clone the project and cd into the "next"-folder.
 
-Create a file called ".env.local" and insert your environment API key (see step "2.1.3. Environments" in the tutorial) like this:
+Create a file called ".env.local" and insert your environment API key like this:
 
 `ENTERSPEED_ENVIRONMENT_API_KEY=[YOUR-ENTERSPEED-API-KEY-HERE]
 `

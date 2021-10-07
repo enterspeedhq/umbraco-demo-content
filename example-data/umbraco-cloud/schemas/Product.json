@@ -34,7 +34,7 @@
 		},
 		"currency": {
 			"type": "reference",
-			"gid": {
+			"originId": {
 				"$exp": "{originParentId}"
 			},
 			"view": "currency"
