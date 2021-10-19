@@ -1,23 +1,31 @@
 # Enterspeed demo: Next.js
-An Enterspeed example project using Enterspeed, Umbraco Cloud, and Next.js.
+An Enterspeed example project using Enterspeed, Umbraco, and Next.js.
 
 We've created this example project (a simple website containing H. C. Andersen fairy tales) to illustrate the power of Enterspeed.
 
-All of our content has been synced from Umbraco Cloud to an Enterspeed-project. This enables us to design a whole new front-end application, while still using our data from our existing CMS.
+All of our content has been synced from Umbraco to an Enterspeed-project. This enables us to design a whole new front-end application, while still using our data from our existing CMS.
 
 Using Enterspeed gives us the flexibility to design and optimize our front-end application as we please, while still keeping the same editor experience.
 
-**:bulb: Tip: [You can view the full tutorial on our Docs site](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/intro/ "You can view the full tutorial on our Docs site").**
+**:bulb: Tip: [You can view the full tutorial on our Docs site](https://docs.enterspeed.com/examples/umbraco-nextjs/intro/ "You can view the full tutorial on our Docs site").**
 
 ## How to set up and use
 ### Umbraco
-**:warning: This demo uses Umbraco V8.**
+Install and configure the Enterspeed Umbraco package as described in the [tutorial](https://docs.enterspeed.com/examples/umbraco-nextjs/intro).
 
-Sign up for a Umbraco Cloud account. Install and configure the Enterspeed Umbraco package as described in the [tutorial](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/intro/ "tutorial").
+#### Umbraco v8
 
-Download the "enterspeed-demo-umbraco-content.zip"-file in the folder "example-data/umbraco-cloud/enterspeed-umbraco-v8".
+Download the "enterspeed-demo-umbraco-content.zip" - file in the folder "example-data/enterspeed-umbraco-v8".
 
 Click on the Packages tab and select "Install local" on the right-hand side. Then drag the zip file onto the page, or click to select it from the dialog.
+
+#### Umbraco 9
+
+Since, Umbraco 9 has removed packages installation from the backoffice, we need to install [Enterspeed.Demos.UmbracoCms.V9.FairyTales](https://www.nuget.org/packages/Enterspeed.Demos.UmbracoCms.V9.FairyTales/) NuGet package, that will import content, data types and document types required for this demo on startup of your application.
+
+After package installation build and start you application.
+
+### Publishing and syncing imported demo content
 
 Publish the site by navigating to the Content tab, and select the Home node. 
 
@@ -28,7 +36,7 @@ Check the "Include unpublished content items" option, and click the "Publish wit
 This will publish the entire site, and send the data to Enterspeed.
 
 ### Enterspeed
-Set up an Enterspeed project and [configure your Sources & Environments](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/sources-environments "Configure your Sources & Environments").
+Set up an Enterspeed project and [configure your Sources & Environments](https://docs.enterspeed.com/examples/umbraco-nextjs/sources-environments "Configure your Sources & Environments").
 
 Create the schemas and partial schema from [example-data/enterspeed-schemas/schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/schemas) and [example-data/enterspeed-schemas/partial-schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/partial-schemas) in Enterspeed and publish them.
 
