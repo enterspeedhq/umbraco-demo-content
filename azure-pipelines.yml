@@ -86,7 +86,7 @@ stages:
             displayName: Dotnet build
             inputs:
               command: build
-              projects: 'Enterspeed.Source.UmbracoCms.sln'
+              projects: './example-data/Enterspeed.Demos.UmbracoCms.V9.FairyTales/Enterspeed.Demos.UmbracoCms.V9.FairyTales.sln'
               arguments: '--no-restore --configuration Release /p:Version=$(semVersion)'
 
           # Pack NuGet 
