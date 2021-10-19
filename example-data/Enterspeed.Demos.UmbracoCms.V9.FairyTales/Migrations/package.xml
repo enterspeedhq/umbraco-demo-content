@@ -511,7 +511,6 @@ Adapted from the official Umbraco Starter kit]]></readme>
       <Structure>
         <DocumentType>products</DocumentType>
         <DocumentType>contentPage</DocumentType>
-        <DocumentType>contact</DocumentType>
       </Structure>
       <GenericProperties>
         <GenericProperty>
