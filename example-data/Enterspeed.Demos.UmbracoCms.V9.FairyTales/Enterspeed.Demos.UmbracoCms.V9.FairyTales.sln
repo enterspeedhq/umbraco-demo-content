@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{3F2D3811-183F-4C64-8F73-7FBFE54A76AF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		azure-pipelines.yml = azure-pipelines.yml
+		..\..\azure-pipelines.yml = ..\..\azure-pipelines.yml
 		NuGet.Config = NuGet.Config
 	EndProjectSection
 EndProject
