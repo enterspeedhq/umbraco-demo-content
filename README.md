@@ -15,7 +15,7 @@ Using Enterspeed gives us the flexibility to design and optimize our front-end a
 
 Sign up for a Umbraco Cloud account. Install and configure the Enterspeed Umbraco package as described in the [tutorial](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/intro/ "tutorial").
 
-Download the "enterspeed-demo-umbraco-content.zip"-file in the folder "example-data/umbraco-cloud/content".
+Download the "enterspeed-demo-umbraco-content.zip"-file in the folder "example-data/umbraco-cloud/enterspeed-umbraco-v8".
 
 Click on the Packages tab and select "Install local" on the right-hand side. Then drag the zip file onto the page, or click to select it from the dialog.
 
@@ -30,7 +30,7 @@ This will publish the entire site, and send the data to Enterspeed.
 ### Enterspeed
 Set up an Enterspeed project and [configure your Sources & Environments](https://docs.enterspeed.com/examples/umbraco-cloud-nextjs/sources-environments "Configure your Sources & Environments").
 
-Create the schemas and partial schema from [example-data/umbraco-cloud/schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/umbraco-cloud/schemas) and [example-data/umbraco-cloud/partial-schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/umbraco-cloud/partial-schemas) in Enterspeed and publish them.
+Create the schemas and partial schema from [example-data/enterspeed-schemas/schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/schemas) and [example-data/enterspeed-schemas/partial-schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/partial-schemas) in Enterspeed and publish them.
 
 ### Next.js
 Clone the project and cd into the "next"-folder.
