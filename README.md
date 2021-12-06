@@ -7,11 +7,11 @@ All of our content has been synced from Umbraco to an Enterspeed-project. This e
 
 Using Enterspeed gives us the flexibility to design and optimize our front-end application as we please, while still keeping the same editor experience.
 
-**:bulb: Tip: [You can view the full tutorial on our Docs site](https://docs.enterspeed.com/examples/umbraco-nextjs/intro/ "You can view the full tutorial on our Docs site").**
+**:bulb: Tip: [You can view the full tutorial on our Docs site](https://docs.enterspeed.com/tutorials/umbraco-nextjs/intro "You can view the full tutorial on our Docs site").**
 
 ## How to set up and use
 ### Umbraco
-Install and configure the Enterspeed Umbraco package as described in the [tutorial](https://docs.enterspeed.com/examples/umbraco-nextjs/intro).
+Install and configure the Enterspeed Umbraco package as described in the [tutorial](https://docs.enterspeed.com/tutorials/umbraco-nextjs/intro).
 
 #### Umbraco v8
 
@@ -36,7 +36,7 @@ Check the "Include unpublished content items" option, and click the "Publish wit
 This will publish the entire site, and send the data to Enterspeed.
 
 ### Enterspeed
-Set up an Enterspeed project and [configure your Sources & Environments](https://docs.enterspeed.com/examples/umbraco-nextjs/sources-environments "Configure your Sources & Environments").
+Set up an Enterspeed project and [configure your Sources & Environments](https://docs.enterspeed.com/tutorials/umbraco-nextjs/sources-environments "Configure your Sources & Environments").
 
 Create the schemas and partial schema from [example-data/enterspeed-schemas/schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/schemas) and [example-data/enterspeed-schemas/partial-schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/partial-schemas) in Enterspeed and publish them.
 
