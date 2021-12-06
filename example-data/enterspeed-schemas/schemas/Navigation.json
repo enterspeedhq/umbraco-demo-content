@@ -1,33 +1,23 @@
 {
-	"sourceEntityTypes": [
-		"home"
-	],
-	"route": {
-		"handles": [
-			{
-				"$exp": "navigation"
-			}
-		]
-	},
-	"properties": {
-		"navigationItems": {
-			"type": "array",
-			"input": {
-				"$lookup": {
-					"operator": "equals",
-					"sourceEntityProperty": "originParentId",
-					"matchValue": {
-						"$exp": "{originId}"
-					}
-				}
-			},
-			"items": {
-				"type": "reference",
-				"gid": {
-					"$exp": "{item.id}"
-				},
-				"view": "navigationItem"
-			}
-		}
-	}
+  "sourceEntityTypes": ["home"],
+  "route": {
+    "handles": ["navigation"]
+  },
+  "properties": {
+    "navigationItems": {
+      "type": "array",
+      "input": {
+        "$lookup": {
+          "operator": "equals",
+          "sourceEntityProperty": "originParentId",
+          "matchValue": "{originId}"
+        }
+      },
+      "items": {
+        "type": "reference",
+        "gid": "{item.id}",
+        "alias": "navigationItem"
+      }
+    }
+  }
 }

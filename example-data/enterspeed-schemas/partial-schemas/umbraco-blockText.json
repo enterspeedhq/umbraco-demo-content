@@ -1,18 +1,8 @@
 {
-	"name": "Block Text",
-	"viewHandle": "umbraco-blockText",
-	"properties": {
-		"text": {
-			"type": "string",
-			"value": {
-				"$exp": "{item.content.text}"
-			}
-		},
-		"alias": {
-			"type": "string",
-			"value": {
-				"$exp": "{item.contentType}"
-			}
-		}
-	}
+  "name": "Block Text",
+  "alias": "umbraco-blockText",
+  "properties": {
+    "text": "{item.content.text}",
+    "alias": "{item.contentType}"
+  }
 }

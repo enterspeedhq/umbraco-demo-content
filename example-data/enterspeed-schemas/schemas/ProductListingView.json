@@ -3,36 +3,17 @@
 		"product"
 	],
 	"properties": {
-		"name": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.productName}"
-			}
-		},
-		"description": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.description}"
-			}
-		},
+		"name": "{p.productName}",
+		"description": "{p.description}",
 		"price": {
 			"type": "number",
-			"value": {
-				"$exp": "{properties.price}"
-			}
+			"value": "{p.price}"
 		},
-		"href": {
-			"type": "string",
-			"value": {
-				"$exp": "{url}"
-			}
-		},
+		"href": "{url}",
 		"currency": {
 			"type": "reference",
-			"originId": {
-				"$exp": "{originParentId}"
-			},
-			"view": "currency"
+			"originId": "{originParentId}",
+			"alias": "currency"
 		}
 	}
 }

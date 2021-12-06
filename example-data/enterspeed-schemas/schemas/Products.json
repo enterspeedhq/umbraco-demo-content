@@ -1,50 +1,27 @@
 {
-	"sourceEntityTypes": [
-		"products"
-	],
+  "sourceEntityTypes": ["products"],
 	"route": {
-		"url": {
-			"$exp": "{url}"
-		}
+    "url": "{url}"
 	},
 	"properties": {
-		"type": {
-			"type": "string",
-			"value": {
-				"$exp": "products"
-			}
-		},
-		"headline": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.pageTitle}"
-			}
-		},
-		"seoMetaDescription": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.seoMetaDescription}"
-			}
-		},
+    "type": "products",
+    "headline": "{p.pageTitle}",
+    "seoMetaDescription": "{p.seoMetaDescription}",
 		"products": {
 			"type": "array",
 			"input": {
 				"$lookup": {
 					"operator": "equals",
 					"sourceEntityProperty": "originParentId",
-					"matchValue": {
-						"$exp": "{originId}"
-					},
+          "matchValue": "{originId}",
 					"sourceEntityType": "product"
 				}
 			},
 			"var": "product",
 			"items": {
 				"type": "reference",
-				"gid": {
-					"$exp": "{product.id}"
-				},
-				"view": "productListingView"
+        "gid": "{product.id}",
+        "alias": "productListingView"
 			}
 		}
 	}
