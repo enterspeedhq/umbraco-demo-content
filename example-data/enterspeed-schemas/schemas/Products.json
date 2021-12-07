@@ -30,7 +30,6 @@
 			"type": "array",
 			"input": {
 				"$lookup": {
-					"var": "product",
 					"operator": "equals",
 					"sourceEntityProperty": "originParentId",
 					"matchValue": {
@@ -39,6 +38,7 @@
 					"sourceEntityType": "product"
 				}
 			},
+			"var": "product",
 			"items": {
 				"type": "reference",
 				"gid": {
