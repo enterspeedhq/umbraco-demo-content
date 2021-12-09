@@ -2,29 +2,29 @@
   "sourceEntityTypes": [
     "products"
   ],
-	"route": {
+  "route": {
     "url": "{url}"
-	},
-	"properties": {
+  },
+  "properties": {
     "type": "products",
     "headline": "{p.pageTitle}",
     "seoMetaDescription": "{p.seoMetaDescription}",
-		"products": {
-			"type": "array",
-			"input": {
-				"$lookup": {
-					"operator": "equals",
-					"sourceEntityProperty": "originParentId",
+    "products": {
+      "type": "array",
+      "input": {
+        "$lookup": {
+          "operator": "equals",
+          "sourceEntityProperty": "originParentId",
           "matchValue": "{originId}",
-					"sourceEntityType": "product"
-				}
-			},
-			"var": "product",
-			"items": {
-				"type": "reference",
-        "gid": "{product.id}",
+          "sourceEntityType": "product"
+        }
+      },
+      "var": "product",
+      "items": {
+        "type": "reference",
+        "id": "{product.id}",
         "alias": "productListingView"
-			}
-		}
-	}
+      }
+    }
+  }
 }

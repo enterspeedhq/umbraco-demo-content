@@ -19,7 +19,7 @@
       },
       "items": {
         "type": "reference",
-        "gid": "{item.id}",
+        "id": "{item.id}",
         "alias": "navigationItem"
       }
     }
