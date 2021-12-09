@@ -1,5 +1,7 @@
 {
-  "sourceEntityTypes": ["home"],
+  "sourceEntityTypes": [
+    "home"
+  ],
   "route": "{url}",
   "properties": {
     "type": "{type}",

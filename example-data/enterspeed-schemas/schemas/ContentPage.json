@@ -1,6 +1,10 @@
 {
-  "sourceEntityTypes": ["contentPage"],
-  "route": "{url}",
+  "sourceEntityTypes": [
+    "contentPage"
+  ],
+  "route": {
+    "url": "{url}"
+  },
   "properties": {
     "type": "{type}",
     "headline": "{p.pageTitle}",

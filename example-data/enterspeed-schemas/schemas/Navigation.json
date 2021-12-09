@@ -1,7 +1,11 @@
 {
-  "sourceEntityTypes": ["home"],
+  "sourceEntityTypes": [
+    "home"
+  ],
   "route": {
-    "handles": ["navigation"]
+    "handles": [
+      "navigation"
+    ]
   },
   "properties": {
     "navigationItems": {

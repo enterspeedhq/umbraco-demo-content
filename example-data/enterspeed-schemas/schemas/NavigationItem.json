@@ -1,35 +1,38 @@
 {
-  "sourceEntityTypes": ["contentPage", "products"],
-  "properties": {
-	"label": "{p.pageTitle}",
-	"type": "{p.type}",
-	"href": "{url}",
-	"sortOrder": {
-	  "type": "number",
-	  "value": "{p.metaData.sortOrder}"
-	},
-	"children": {
-	  "type": "array",
-	  "input": {
-		"$lookup": {
-		  "operator": "equals",
-		  "sourceEntityProperty": "originParentId",
-		  "sourceEntityType": "contentPage",
-		  "matchValue": "{originId}"
-		}
-	  },
-	  "items": {
-		"type": "object",
-		"properties": {
-		  "label": "{item.p.pageTitle}",
-		  "type": "{item.type}",
-		  "href": "{item.url}",
-		  "sortOrder": {
+	"sourceEntityTypes": [
+		"contentPage",
+		"products"
+	],
+	"properties": {
+		"label": "{p.pageTitle}",
+		"type": "{p.type}",
+		"href": "{url}",
+		"sortOrder": {
 			"type": "number",
-			"value": "{item.p.metaData.sortOrder}"
-		  }
+			"value": "{p.metaData.sortOrder}"
+		},
+		"children": {
+			"type": "array",
+			"input": {
+				"$lookup": {
+					"operator": "equals",
+					"sourceEntityProperty": "originParentId",
+					"sourceEntityType": "contentPage",
+					"matchValue": "{originId}"
+				}
+			},
+			"items": {
+				"type": "object",
+				"properties": {
+					"label": "{item.p.pageTitle}",
+					"type": "{item.type}",
+					"href": "{item.url}",
+					"sortOrder": {
+						"type": "number",
+						"value": "{item.p.metaData.sortOrder}"
+					}
+				}
+			}
 		}
-	  }
 	}
-  }
 }

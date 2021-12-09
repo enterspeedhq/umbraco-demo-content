@@ -1,5 +1,7 @@
 {
-  "sourceEntityTypes": ["product"],
+  "sourceEntityTypes": [
+    "product"
+  ],
   "route": {
     "url": "{url}"
   },
