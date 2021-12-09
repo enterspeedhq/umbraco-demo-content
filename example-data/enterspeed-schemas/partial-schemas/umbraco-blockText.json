@@ -1,5 +1,4 @@
 {
-  "name": "Block Text",
   "alias": "umbraco-blockText",
   "properties": {
     "text": "{item.content.text}",
