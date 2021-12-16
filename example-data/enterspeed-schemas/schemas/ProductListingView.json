@@ -1,38 +1,19 @@
 {
-	"sourceEntityTypes": [
-		"product"
-	],
-	"properties": {
-		"name": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.productName}"
-			}
-		},
-		"description": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.description}"
-			}
-		},
-		"price": {
-			"type": "number",
-			"value": {
-				"$exp": "{properties.price}"
-			}
-		},
-		"href": {
-			"type": "string",
-			"value": {
-				"$exp": "{url}"
-			}
-		},
-		"currency": {
-			"type": "reference",
-			"originId": {
-				"$exp": "{originParentId}"
-			},
-			"view": "currency"
-		}
-	}
+  "sourceEntityTypes": [
+    "product"
+  ],
+  "properties": {
+    "name": "{p.productName}",
+    "description": "{p.description}",
+    "price": {
+      "type": "number",
+      "value": "{p.price}"
+    },
+    "href": "{url}",
+    "currency": {
+      "type": "reference",
+      "originId": "{originParentId}",
+      "alias": "currency"
+    }
+  }
 }

@@ -1,43 +1,17 @@
 {
-	"sourceEntityTypes": [
-		"home"
-	],
-	"route": {
-		"url": {
-			"$exp": "{url}"
-		}
-	},
-	"properties": {
-		"type": {
-			"type": "string",
-			"value": {
-				"$exp": "{type}"
-			}
-		},
-		"heroHeader": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.heroHeader}"
-			}
-		},
-		"heroDescription": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.heroDescription}"
-			}
-		},
-		"heroCTACaption": {
-			"type": "string",
-			"value": {
-				"$exp": "{properties.heroCTACaption}"
-			}
-		},
-		"heroCTALink": {
-			"type": "reference",
-			"originId": {
-				"$exp": "{properties.HeroCtalink}"
-			},
-			"view": "link"
-		}
-	}
+  "sourceEntityTypes": [
+    "home"
+  ],
+  "route": "{url}",
+  "properties": {
+    "type": "{type}",
+    "heroHeader": "{p.heroHeader}",
+    "heroDescription": "{p.heroDescription}",
+    "heroCTACaption": "{p.heroCTACaption}",
+    "heroCTALink": {
+      "type": "reference",
+      "originId": "{p.HeroCtalink}",
+      "alias": "link"
+    }
+  }
 }
