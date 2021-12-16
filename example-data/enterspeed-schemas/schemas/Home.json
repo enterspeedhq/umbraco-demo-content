@@ -1,17 +1,19 @@
 {
-  "sourceEntityTypes": [
-    "home"
-  ],
-  "route": "{url}",
-  "properties": {
-    "type": "{type}",
-    "heroHeader": "{p.heroHeader}",
-    "heroDescription": "{p.heroDescription}",
-    "heroCTACaption": "{p.heroCTACaption}",
-    "heroCTALink": {
-      "type": "reference",
-      "originId": "{p.HeroCtalink}",
-      "alias": "link"
-    }
-  }
+	"sourceEntityTypes": [
+		"home"
+	],
+	"route": {
+		"url": "{url}"
+	},
+	"properties": {
+		"type": "{type}",
+		"heroHeader": "{p.heroHeader}",
+		"heroDescription": "{p.heroDescription}",
+		"heroCTACaption": "{p.heroCTACaption}",
+		"heroCTALink": {
+			"type": "reference",
+			"originId": "{p.HeroCtalink}",
+			"alias": "link"
+		}
+	}
 }
