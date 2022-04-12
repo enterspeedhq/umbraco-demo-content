@@ -1,16 +1,13 @@
 {
-  "sourceEntityTypes": [
-    "contentPage",
-    "products"
-  ],
+  "sourceEntityTypes": ["contentPage", "products"],
   "actions": [
-		{
-			"type": "process",
-			"originId": {
-				"$exp": "{originParentId}"
-			}
-		}
-	],
+    {
+      "type": "process",
+      "originId": {
+        "$exp": "{originParentId}"
+      }
+    }
+  ],
   "properties": {
     "label": "{p.pageTitle}",
     "type": "{p.type}",
