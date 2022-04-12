@@ -8,7 +8,7 @@ const entities = {
 };
 
 export default function Entity({ view }) {
-  const Container = entities[view.type];
+  const Container = entities[view?.type];
 
   return <Container view={view} />;
 }
