@@ -7,9 +7,9 @@ import Footer from "../components/Footer";
 import { getByHandle } from "../lib/enterspeed";
 import PreviewBar from "../components/PreviewBar";
 import {
-  managePreviewLocalStorage,
-  checkPreviewLocalStorage,
-} from "../helpers/previewLocalStorage";
+  managePreviewSessionStorage,
+  checkPreviewSessionStorage,
+} from "../helpers/previewSessionStorage";
 
 const theme = extendTheme({
   styles: {
@@ -22,8 +22,8 @@ const theme = extendTheme({
 });
 
 function App({ Component, pageProps, navigation, preview, CSRpreview }) {
-  managePreviewLocalStorage(CSRpreview);
-  const previewLocaleStorage = checkPreviewLocalStorage();
+  managePreviewSessionStorage(CSRpreview);
+  const previewSessionStorage = checkPreviewSessionStorage();
 
   return (
     <>
@@ -51,14 +51,14 @@ function App({ Component, pageProps, navigation, preview, CSRpreview }) {
         <TopNav nav={navigation.navigationItems} />
         <Component {...pageProps} />
         <Footer />
-        {(preview || previewLocaleStorage) && <PreviewBar />}
+        {(preview || previewSessionStorage) && <PreviewBar />}
       </ChakraProvider>
     </>
   );
 }
 
 App.getInitialProps = async (context) => {
-  // If you use CSR, you need to handle preview mode via local storage
+  // If you use CSR, you need to handle preview mode via session storage
   // This is done by first accessing the query string send via the api/preview/index.js
   // We then check if the query string is set to "enabled" and contains our secret token
 

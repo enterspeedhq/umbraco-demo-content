@@ -15,7 +15,7 @@ export default function handler(req, res) {
   // Redirect to root. We set a query string parameter so we can check if the
   // preview is enabled. This is used in _app.js in getInitialProps.
   // Since CSR components can't access the Preview context,
-  // we also manage preview state via local storage.
+  // we also manage preview state via session storage.
   res.redirect(
     `/?preview=true&secret=${process.env.ENTERSPEED_PREVIEW_SECRET}`
   );

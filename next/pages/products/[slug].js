@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { Product } from "../../components/entities";
 import { getByUrl } from "../../lib/enterspeed";
-import { checkPreviewLocalStorage } from "../../helpers/previewLocalStorage";
+import { checkPreviewSessionStorage } from "../../helpers/previewSessionStorage";
 
 export default function ProductRoute() {
   const router = useRouter();
@@ -11,7 +11,7 @@ export default function ProductRoute() {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const preview = checkPreviewLocalStorage();
+  const preview = checkPreviewSessionStorage();
 
   useEffect(() => {
     const getProduct = async () => {

@@ -3,6 +3,6 @@ export default function handler(req, res) {
   res.clearPreviewData();
 
   // We set the query string to "preview=clear" so we can remove the preview
-  // state used that is set local storage. This is used in _app.js in getInitialProps.
+  // state used that is set session storage. This is used in _app.js in getInitialProps.
   res.redirect("/?preview=clear");
 }
