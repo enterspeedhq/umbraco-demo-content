@@ -3,6 +3,14 @@
     "contentPage",
     "products"
   ],
+  "actions": [
+		{
+			"type": "process",
+			"originId": {
+				"$exp": "{originParentId}"
+			}
+		}
+	],
   "properties": {
     "label": "{p.pageTitle}",
     "type": "{p.type}",
