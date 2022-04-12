@@ -1,4 +1,5 @@
 # Enterspeed demo: Next.js
+
 An Enterspeed example project using Enterspeed, Umbraco, and Next.js.
 
 We've created this example project (a simple website containing H. C. Andersen fairy tales) to illustrate the power of Enterspeed.
@@ -10,7 +11,9 @@ Using Enterspeed gives us the flexibility to design and optimize our front-end a
 **:bulb: Tip: [You can view the full tutorial on our Docs site](https://docs.enterspeed.com/tutorials/umbraco-nextjs/intro "You can view the full tutorial on our Docs site").**
 
 ## How to set up and use
+
 ### Umbraco
+
 Install and configure the Enterspeed Umbraco package as described in the [tutorial](https://docs.enterspeed.com/tutorials/umbraco-nextjs/intro).
 
 #### Umbraco v8
@@ -27,28 +30,34 @@ After package installation build and start you application.
 
 ### Publishing and syncing imported demo content
 
-Publish the site by navigating to the Content tab, and select the Home node. 
+Publish the site by navigating to the Content tab, and select the Home node.
 
-Then click the arrow on the green "Save and Publish" button in the lower right corner, and select "Publish with descendants", 
+Then click the arrow on the green "Save and Publish" button in the lower right corner, and select "Publish with descendants",
 
-Check the "Include unpublished content items" option, and click the "Publish with descendants" button. 
+Check the "Include unpublished content items" option, and click the "Publish with descendants" button.
 
 This will publish the entire site, and send the data to Enterspeed.
 
 ### Enterspeed
+
 Set up an Enterspeed project and [configure your Sources & Environments](https://docs.enterspeed.com/tutorials/umbraco-nextjs/sources-environments "Configure your Sources & Environments").
 
 Create the schemas and partial schema from [example-data/enterspeed-schemas/schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/schemas) and [example-data/enterspeed-schemas/partial-schemas](https://github.com/enterspeedhq/enterspeed-demo-nextjs/tree/master/example-data/enterspeed-schemas/partial-schemas) in Enterspeed and publish them.
 
 ### Next.js
+
 Clone the project and cd into the "next"-folder.
 
 Create a file called ".env.local" and insert your environment API key like this:
 
-`ENTERSPEED_ENVIRONMENT_API_KEY=[YOUR-ENTERSPEED-API-KEY-HERE]
-`
+`ENTERSPEED_PRODUCTION_ENVIRONMENT_API_KEY=[YOUR-ENTERSPEED-API-KEY-HERE]`
+
+If you are using Preview-mode you should also insert:  
+`ENTERSPEED_PREVIEW_ENVIRONMENT_API_KEY=[YOUR-ENTERSPEED-API-KEY-HERE]`
+`ENTERSPEED_PREVIEW_SECRET=[A-SECRET-TOKEN-OF-YOUR-CHOICE]`
 
 **:warning: For a production environment, this should be injected on build time.**
 
 ## Demo
+
 You can view a demo of the live site here: https://enterspeed-demo-nextjs.netlify.app/
