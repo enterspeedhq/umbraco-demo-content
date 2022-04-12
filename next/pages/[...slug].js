@@ -1,6 +1,5 @@
 import Entity from "../components/Entity";
 import { getByHandle, getByUrl } from "../lib/enterspeed";
-import React from "react";
 
 const paths = [];
 
