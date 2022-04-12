@@ -1,24 +1,23 @@
-const call = async (query) => {
-  const url = `https://delivery.enterspeed.com/v1?${query}`
-
+const call = async (query, preview) => {
+  const url = `https://delivery.enterspeed.com/v1?${query}`;
   const response = await fetch(new Request(url), {
     headers: {
-      'Content-Type': 'application/json',
-      'X-Api-Key': process.env.ENTERSPEED_ENVIRONMENT_API_KEY
-    }
-  })
+      "Content-Type": "application/json",
+      "X-Api-Key": preview
+        ? process.env.ENTERSPEED_PREVIEW_ENVIRONMENT_API_KEY
+        : process.env.ENTERSPEED_PRODUCTION_ENVIRONMENT_API_KEY,
+    },
+  });
 
-  return response.json()
-}
+  return response.json();
+};
 
-export const getByHandle = async (handle) => {
-  const response = await call(`handle=${handle}`)
+export const getByHandle = async (handle, preview) => {
+  const response = await call(`handle=${handle}`, preview);
+  return response.views[handle];
+};
 
-  return response.views[handle]
-}
-
-export const getByUrl = async (url) => {
-  const response = await call(`url=${url}`)
-
-  return response.route
-}
+export const getByUrl = async (url, preview) => {
+  const response = await call(`url=${url}`, preview);
+  return response.route;
+};
