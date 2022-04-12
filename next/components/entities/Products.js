@@ -1,13 +1,13 @@
-import PageHeader from '../PageHeader'
-import { SimpleGrid, Box, Text, Link, VStack, Image } from '@chakra-ui/react'
-import Head from 'next/head'
+import PageHeader from "../PageHeader";
+import { SimpleGrid, Box, Text, Link, VStack, Image } from "@chakra-ui/react";
+import Head from "next/head";
 
 const Product = ({ product }) => {
   return (
     <Link
       href={product.href}
       _hover={{
-        textDecoration: 'none'
+        textDecoration: "none",
       }}
     >
       <VStack>
@@ -20,34 +20,34 @@ const Product = ({ product }) => {
           bottom="0"
           position="relative"
           _hover={{
-            boxShadow: 'xl',
-            bottom: '4px',
-            cursor: 'pointer'
+            boxShadow: "xl",
+            bottom: "4px",
+            cursor: "pointer",
           }}
         >
           <Image
             alt="Default product image"
-            borderTopRadius={'md'}
-            src='/the-flying-trunk-book.jpg'
+            borderTopRadius={"md"}
+            src="/the-flying-trunk-book.jpg"
           />
           <Box p="6">
-            <Text fontWeight={'medium'}>{product.name}</Text>
+            <Text fontWeight={"medium"}>{product.name}</Text>
 
-            <Text paddingY={6} color={'gray.500'} fontStyle={'italic'}>
+            <Text paddingY={6} color={"gray.500"} fontStyle={"italic"}>
               {product.description}
             </Text>
 
-            <Text fontSize={'md'}>
+            <Text fontSize={"md"}>
               {product.price} {product.currency.view.defaultCurrency}
             </Text>
           </Box>
         </Box>
       </VStack>
     </Link>
-  )
-}
+  );
+};
 
-export default function Products ({ view }) {
+export default function Products({ view }) {
   return (
     <>
       <Head>
@@ -56,16 +56,16 @@ export default function Products ({ view }) {
       </Head>
       <PageHeader title="Products" />
       <SimpleGrid
-        columns={{ base: '0', md: '3' }}
+        columns={{ base: "0", md: "3" }}
         spacing={10}
-        maxWidth={'container.lg'}
-        marginX={{ base: '4', md: 'auto' }}
-        paddingY={'10'}
+        maxWidth={"container.lg"}
+        marginX={{ base: "4", md: "auto" }}
+        paddingY={"10"}
       >
         {view.products.map((p, index) => {
-          return <Product key={`product-${index}`} product={p.view} />
+          return <Product key={`product-${index}`} product={p.view} />;
         })}
       </SimpleGrid>
     </>
-  )
+  );
 }

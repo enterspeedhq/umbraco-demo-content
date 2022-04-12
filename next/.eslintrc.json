@@ -5,7 +5,8 @@
     },
     "extends": [
         "standard",
-        "next"
+        "next",
+        "prettier"
     ],
     "parserOptions": {
         "ecmaFeatures": {

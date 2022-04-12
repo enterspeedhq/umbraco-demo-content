@@ -1,29 +1,35 @@
-import { useState, useEffect } from 'react'
-import { useRouter } from 'next/router'
-import { Product } from '../../components/entities'
-import { getByUrl } from '../../lib/enterspeed'
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+import { Product } from "../../components/entities";
+import { getByUrl } from "../../lib/enterspeed";
+import { checkPreviewLocalStorage } from "../../helpers/previewLocalStorage";
 
-export default function ProductRoute () {
-  const router = useRouter()
-  const { slug } = router.query
+export default function ProductRoute() {
+  const router = useRouter();
+  const { slug } = router.query;
 
-  const [product, setProduct] = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [product, setProduct] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  const preview = checkPreviewLocalStorage();
 
   useEffect(() => {
     const getProduct = async () => {
-      const data = await getByUrl(encodeURIComponent(`/products/${slug}/`))
+      const data = await getByUrl(
+        encodeURIComponent(`/products/${slug}/`),
+        preview
+      );
 
-      setProduct(data)
-      setLoading(false)
-    }
+      setProduct(data);
+      setLoading(false);
+    };
 
-    getProduct()
-  }, [slug])
+    getProduct();
+  }, [slug, preview]);
 
   if (loading) {
-    return null
+    return null;
   }
 
-  return <Product product={product} />
+  return <Product product={product} />;
 }
