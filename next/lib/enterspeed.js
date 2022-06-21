@@ -12,12 +12,16 @@ const call = async (query, preview) => {
   return response.json();
 };
 
-export const getByHandle = async (handle, preview) => {
+export const getByHandle = async (handle, preview, asArray = true) => {
   const response = await call(`handle=${handle}`, preview);
-  return response.views[handle];
+  return asArray ? response.views[handle] : response.views;
 };
 
 export const getByUrl = async (url, preview) => {
   const response = await call(`url=${url}`, preview);
-  return response.route;
+
+  return {
+    ...response.route,
+    ...response.meta,
+  };
 };

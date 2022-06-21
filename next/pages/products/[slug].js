@@ -9,6 +9,10 @@ export default function ProductRoute() {
   const { slug } = router.query;
 
   const [product, setProduct] = useState(null);
+
+  const [statusCode, setStatusCode] = useState(null);
+  const [routerReady, setRouterReady] = useState(false);
+
   const [loading, setLoading] = useState(true);
 
   const preview = checkPreviewSessionStorage();
@@ -20,6 +24,7 @@ export default function ProductRoute() {
         preview
       );
 
+      setStatusCode(data.status);
       setProduct(data);
       setLoading(false);
     };
@@ -27,9 +32,17 @@ export default function ProductRoute() {
     getProduct();
   }, [slug, preview]);
 
+  useEffect(() => {
+    setRouterReady(router.isReady);
+  }, [router.isReady]);
+
   if (loading) {
     return null;
   }
 
-  return <Product product={product} />;
+  if (statusCode === 404) {
+    if (routerReady) router.push("/404");
+
+    return <>Loading...</>;
+  } else return <Product product={product} />;
 }
