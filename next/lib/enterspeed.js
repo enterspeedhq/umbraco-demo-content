@@ -8,7 +8,6 @@ const call = async (query, preview) => {
         : process.env.ENTERSPEED_PRODUCTION_ENVIRONMENT_API_KEY,
     },
   });
-
   return response.json();
 };
 

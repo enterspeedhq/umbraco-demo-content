@@ -3,16 +3,13 @@ import { useRouter } from "next/router";
 import { Product } from "../../components/entities";
 import { getByUrl } from "../../lib/enterspeed";
 import { checkPreviewSessionStorage } from "../../helpers/previewSessionStorage";
+import Error from "next/error";
 
 export default function ProductRoute() {
   const router = useRouter();
   const { slug } = router.query;
 
   const [product, setProduct] = useState(null);
-
-  const [statusCode, setStatusCode] = useState(null);
-  const [routerReady, setRouterReady] = useState(false);
-
   const [loading, setLoading] = useState(true);
 
   const preview = checkPreviewSessionStorage();
@@ -24,7 +21,6 @@ export default function ProductRoute() {
         preview
       );
 
-      setStatusCode(data.status);
       setProduct(data);
       setLoading(false);
     };
@@ -32,17 +28,13 @@ export default function ProductRoute() {
     getProduct();
   }, [slug, preview]);
 
-  useEffect(() => {
-    setRouterReady(router.isReady);
-  }, [router.isReady]);
-
   if (loading) {
     return null;
   }
 
-  if (statusCode === 404) {
-    if (routerReady) router.push("/404");
+  if (product.status === 404) {
+    return <Error statusCode={404} />;
+  }
 
-    return <>Loading...</>;
-  } else return <Product product={product} />;
+  return <Product product={product} />;
 }
