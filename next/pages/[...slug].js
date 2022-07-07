@@ -62,6 +62,8 @@ export async function getStaticProps({ params, preview }) {
 }
 
 const Content = ({ view }) => {
+  // ⚠ Warning: Since we're using SSG and not SSR - this doesn't return a 404-status code, but only shows a visual "404 error page".
+
   if (view.status === 404) {
     return <Error statusCode={404} />;
   }
