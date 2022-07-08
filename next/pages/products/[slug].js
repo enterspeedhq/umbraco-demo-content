@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { Product } from "../../components/entities";
 import { getByUrl } from "../../lib/enterspeed";
 import { checkPreviewSessionStorage } from "../../helpers/previewSessionStorage";
+import Error from "next/error";
 
 export default function ProductRoute() {
   const router = useRouter();
@@ -29,6 +30,10 @@ export default function ProductRoute() {
 
   if (loading) {
     return null;
+  }
+
+  if (product.status === 404) {
+    return <Error statusCode={404} />;
   }
 
   return <Product product={product} />;
