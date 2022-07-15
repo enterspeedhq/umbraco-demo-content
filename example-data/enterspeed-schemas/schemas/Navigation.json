@@ -1,11 +1,9 @@
 {
-  "sourceEntityTypes": [
-    "home"
-  ],
+  "triggers": {
+    "demoCMS": ["home"]
+  },
   "route": {
-    "handles": [
-      "navigation"
-    ]
+    "handles": ["navigation"]
   },
   "properties": {
     "navigationItems": {
@@ -19,7 +17,7 @@
       },
       "items": {
         "type": "reference",
-        "id": "{item.id}",
+        "gid": "{item.id}",
         "alias": "navigationItem"
       }
     }

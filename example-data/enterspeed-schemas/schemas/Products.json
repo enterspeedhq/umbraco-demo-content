@@ -1,7 +1,7 @@
 {
-  "sourceEntityTypes": [
-    "products"
-  ],
+  "triggers": {
+    "demoCMS": ["products"]
+  },
   "route": {
     "url": "{url}"
   },
@@ -22,7 +22,7 @@
       "var": "product",
       "items": {
         "type": "reference",
-        "id": "{product.id}",
+        "gid": "{product.id}",
         "alias": "productListingView"
       }
     }

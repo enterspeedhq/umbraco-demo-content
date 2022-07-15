@@ -1,5 +1,7 @@
 {
-  "sourceEntityTypes": ["contentPage", "products"],
+  "triggers": {
+    "demoCMS": ["contentPage", "products"]
+  },
   "actions": [
     {
       "type": "process",

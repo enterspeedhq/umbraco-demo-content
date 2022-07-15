@@ -1,9 +1,7 @@
 {
-  "sourceEntityTypes": [
-    "contentPage",
-    "product",
-    "home"
-  ],
+  "triggers": {
+    "demoCMS": ["contentPage", "product", "home"]
+  },
   "properties": {
     "url": "{url}"
   }

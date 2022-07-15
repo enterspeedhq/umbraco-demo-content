@@ -1,7 +1,7 @@
 {
-  "sourceEntityTypes": [
-    "product"
-  ],
+  "triggers": {
+    "demoCMS": ["product"]
+  },
   "properties": {
     "name": "{p.productName}",
     "description": "{p.description}",
