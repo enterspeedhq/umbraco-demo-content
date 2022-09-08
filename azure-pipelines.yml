@@ -95,7 +95,7 @@ stages:
             inputs:
               command: pack
               outputDir: '$(Build.ArtifactStagingDirectory)/NuGet'
-              packagesToPack: './example-data/Enterspeed.Demos.UmbracoCms.FairyTales/src/Enterspeed.Demos.UmbracoCms.V9.FairyTales/*.csproj;./example-data/Enterspeed.Demos.UmbracoCms.FairyTales/src/Enterspeed.Demos.UmbracoCms.V10.FairyTales/*.csproj'
+              packagesToPack: 'example-data/Enterspeed.Demos.UmbracoCms.FairyTales/src/Enterspeed.Demos.UmbracoCms.V9.FairyTales/*.csproj;example-data/Enterspeed.Demos.UmbracoCms.FairyTales/src/Enterspeed.Demos.UmbracoCms.V10.FairyTales/*.csproj'
               versioningScheme: byEnvVar
               versionEnvVar: semVersion
 
