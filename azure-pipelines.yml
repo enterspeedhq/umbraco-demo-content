@@ -77,16 +77,16 @@ stages:
             displayName: Dotnet restore
             inputs:
               command: restore
-              projects: './example-data/Enterspeed.Demos.UmbracoCms.V9.FairyTales/Enterspeed.Demos.UmbracoCms.V9.FairyTales.sln'
+              projects: './example-data/Enterspeed.Demos.UmbracoCms.FairyTales/Enterspeed.Demos.UmbracoCms.FairyTales.sln'
               feedsToUse: config
-              nugetConfigPath: '$(System.DefaultWorkingDirectory)/example-data/Enterspeed.Demos.UmbracoCms.V9.FairyTales/NuGet.Config'
+              nugetConfigPath: '$(System.DefaultWorkingDirectory)/example-data/Enterspeed.Demos.UmbracoCms.FairyTales/NuGet.Config'
 
           # Build solution
           - task: DotNetCoreCLI@2
             displayName: Dotnet build
             inputs:
               command: build
-              projects: './example-data/Enterspeed.Demos.UmbracoCms.V9.FairyTales/Enterspeed.Demos.UmbracoCms.V9.FairyTales.sln'
+              projects: './example-data/Enterspeed.Demos.UmbracoCms.FairyTales/Enterspeed.Demos.UmbracoCms.FairyTales.sln'
               arguments: '--no-restore --configuration Release /p:Version=$(semVersion)'
 
           # Pack NuGet 
@@ -95,7 +95,7 @@ stages:
             inputs:
               command: pack
               outputDir: '$(Build.ArtifactStagingDirectory)/NuGet'
-              packagesToPack: './example-data/Enterspeed.Demos.UmbracoCms.V9.FairyTales/*.csproj'
+              packagesToPack: './example-data/Enterspeed.Demos.UmbracoCms.FairyTales/src/Enterspeed.Demos.UmbracoCms.V9.FairyTales/*.csproj;./example-data/Enterspeed.Demos.UmbracoCms.FairyTales/src/Enterspeed.Demos.UmbracoCms.V10.FairyTales/*.csproj'
               versioningScheme: byEnvVar
               versionEnvVar: semVersion
 
