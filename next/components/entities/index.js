@@ -1,6 +1,7 @@
 import ContentPage from './ContentPage'
 import Home from './Home'
-import Product from './Product'
-import Products from './Products'
+import Post from './Post'
+import Posts from './Posts'
+import Tag from './Tag'
 
-export { ContentPage, Home, Product, Products }
+export { ContentPage, Home, Post, Posts, Tag }

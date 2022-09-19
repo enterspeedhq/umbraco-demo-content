@@ -1,8 +1,10 @@
-import { Text, Hero } from './blocks'
+import { Text, Hero, LatestPosts, Tags } from './blocks'
 
 const blocks = {
   blockHero: Hero,
-  blockText: Text
+  blockText: Text,
+  blockLatestPosts: LatestPosts,
+  blockTags: Tags
 }
 
 export default function Block ({ block }) {

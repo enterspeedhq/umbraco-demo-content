@@ -1,13 +1,13 @@
 import { Box, Heading, Container } from '@chakra-ui/react'
 import Image from 'next/image'
-import heroImage from '../public/magic-key-bg.jpg'
+import heroImage from '../public/blog-hero-banner-lightbulbs.jpg'
 
 export default function PageHeader ({ title }) {
   return (
     <Box
       pos="relative"
       borderBottom="5px solid"
-      borderColor="orange.400"
+      borderColor="blue.400"
     >
       <Image
         alt="Fairy tale magic key"
@@ -23,7 +23,6 @@ export default function PageHeader ({ title }) {
               fontWeight={600}
               color={'white'}
               as="h1"
-              fontFamily={'Henny Penny'}
               fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
               lineHeight={'150%'}
             >

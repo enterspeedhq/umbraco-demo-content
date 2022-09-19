@@ -1,10 +1,11 @@
-import { Home, ContentPage, Product, Products } from "./entities";
+import { Home, ContentPage, Post, Posts, Tag } from "./entities";
 
 const entities = {
   home: Home,
   contentPage: ContentPage,
-  product: Product,
-  products: Products,
+  post: Post,
+  posts: Posts,
+  tag: Tag
 };
 
 export default function Entity({ view }) {

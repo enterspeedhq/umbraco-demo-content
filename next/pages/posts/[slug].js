@@ -1,40 +1,40 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { Product } from "../../components/entities";
+import { Post } from "../../components/entities";
 import { getByUrl } from "../../lib/enterspeed";
 import { checkPreviewSessionStorage } from "../../helpers/previewSessionStorage";
 import Error from "next/error";
 
-export default function ProductRoute() {
+export default function PostRoute() {
   const router = useRouter();
   const { slug } = router.query;
 
-  const [product, setProduct] = useState(null);
+  const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
 
   const preview = checkPreviewSessionStorage();
 
   useEffect(() => {
-    const getProduct = async () => {
+    const getPost = async () => {
       const data = await getByUrl(
-        encodeURIComponent(`/products/${slug}/`),
+        encodeURIComponent(`/posts/${slug}/`),
         preview
       );
 
-      setProduct(data);
+      setPost(data);
       setLoading(false);
     };
 
-    getProduct();
+    getPost();
   }, [slug, preview]);
 
   if (loading) {
     return null;
   }
 
-  if (product.status === 404) {
+  if (post.status === 404) {
     return <Error statusCode={404} />;
   }
 
-  return <Product product={product} />;
+  return <Post post={post} />;
 }

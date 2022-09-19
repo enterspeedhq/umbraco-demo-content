@@ -8,7 +8,7 @@ import {
   Link
 } from '@chakra-ui/react'
 import Image from 'next/image'
-import heroImage from '../../public/magic-key-bg.jpg'
+import heroImage from '../../public/blog-hero-banner-lightbulbs.jpg'
 
 export default function Hero ({
   block
@@ -35,8 +35,7 @@ export default function Hero ({
             <Heading
               fontWeight={600}
               as="h1"
-              color={'orange.100'}
-              fontFamily={'Henny Penny'}
+              color={'white'}
               fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
               lineHeight={'150%'}>
               {block.heroHeader}
@@ -57,16 +56,16 @@ export default function Hero ({
                 }}
               >
                 <Button
-                  colorScheme={'orange'}
+                  colorScheme={'blue'}
                   size={'lg'}
-                  bg={'orange.500'}
+                  bg={'blue.500'}
                   rounded={'full'}
                   px={6}
                   _hover={{
-                    bg: 'orange.600'
+                    bg: 'blue.600'
                   }}
                   _active={{
-                    bg: 'orange.700'
+                    bg: 'blue.700'
                   }}>
                   {block.heroCTACaption}
                 </Button>

@@ -4,14 +4,13 @@ export default function Footer() {
   return (
     <Flex
       as="footer"
-      bg={"orange.100"}
       py={4}
       justify={"center"}
       margin="0 auto"
       borderTop="5px solid"
-      borderColor="orange.400"
+      borderColor="blue.400"
     >
-      <Text>&copy; 2022 The Flying Trunk. All rights reserved</Text>
+      <Text>&copy; 2022 My tech blog. All rights reserved</Text>
     </Flex>
   );
 }

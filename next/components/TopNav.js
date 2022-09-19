@@ -57,15 +57,14 @@ export default function TopNav ({ nav }) {
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'space-between' }} maxW={{ md: 'container.lg' }} margin={{ md: '0 auto' }}>
           <Link
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-            fontFamily={'Henny Penny'}
             fontWeight={'600'}
             fontSize={'18px'}
-            color={'orange.800'}
+            color={'gray.800'}
             href="/"
             _hover={{
               textDecoration: 'none'
             }}>
-            <Box as="span" marginRight="8px">📙</Box> The Flying Trunk
+            My tech blog
           </Link>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>

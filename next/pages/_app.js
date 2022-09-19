@@ -15,7 +15,7 @@ const theme = extendTheme({
   styles: {
     global: () => ({
       body: {
-        bg: "orange.100",
+        bg: "gray.100",
       },
     }),
   },
@@ -47,7 +47,7 @@ function App({ Component, pageProps, navigation, preview, CSRpreview }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <ChakraProvider theme={theme}>
+      <ChakraProvider>
         <TopNav nav={navigation.navigationItems} />
         <Component {...pageProps} />
         <Footer />
