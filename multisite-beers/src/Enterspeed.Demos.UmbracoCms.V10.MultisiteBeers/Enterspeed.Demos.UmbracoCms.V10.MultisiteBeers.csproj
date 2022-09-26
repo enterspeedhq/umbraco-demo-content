@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<PackageId>Enterspeed.Demos.UmbracoCms.V10.FairyTales</PackageId>
+		<PackageId>Enterspeed.Demos.UmbracoCms.V10.MultisiteBeers</PackageId>
 
 		<TargetFramework>net6.0</TargetFramework>
 		<PackageVersion>0.0.0</PackageVersion>
 		<Authors>Enterspeed</Authors>
 
 		<ContentTargetFolders>.</ContentTargetFolders>
-		<Description>Enterspeed fairy tales demo content kit for Umbraco version 10</Description>
+		<Description>Enterspeed multisite beers demo content kit for Umbraco version 10</Description>
 		<PackageTags>Enterspeed, Umbraco 10</PackageTags>
 
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -20,11 +20,27 @@
 	<ItemGroup>
 	  <None Remove=".gitignore" />
 	  <None Remove="azure-pipelines.yml" />
+	  <None Remove="Migrations\media\1lxdycck\tobeer-hero.jpg" />
+	  <None Remove="Migrations\media\oqphklgr\ice-beer-hero.jpg" />
+	  <None Remove="Migrations\media\ua0kfpk0\dev-beer-hero.jpg" />
+	  <None Remove="Migrations\media\v10nyjfd\lorem-beer-hero.jpg" />
 	  <None Remove="Migrations\package.xml" />
 	  <None Remove="NuGet.Config" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <EmbeddedResource Include="Migrations\media\1lxdycck\tobeer-hero.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Migrations\media\oqphklgr\ice-beer-hero.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Migrations\media\ua0kfpk0\dev-beer-hero.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Migrations\media\v10nyjfd\lorem-beer-hero.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	  <EmbeddedResource Include="Migrations\package.xml">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </EmbeddedResource>
