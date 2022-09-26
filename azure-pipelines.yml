@@ -41,18 +41,18 @@ variables:
 
 name: $(BuildID) - $(buildName)
 
-trigger:
-  branches:
-    include:
-      - master
-      - develop
-      - release/*
-      - feature/*
-      - bugfix/*
-      - hotfix/*
-  paths:
-    exclude:
-      - README.md
+# trigger:
+#   branches:
+#     include:
+#       - master
+#       - develop
+#       - release/*
+#       - feature/*
+#       - bugfix/*
+#       - hotfix/*
+#   paths:
+#     exclude:
+#       - README.md
 
 pr:
   branches:
