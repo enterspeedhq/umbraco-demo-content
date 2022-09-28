@@ -1,56 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <umbPackage>
-  <files />
-  <info>
-    <package>
-      <name>Umbraco Multisite (Beers)</name>
-      <version>1.0.0</version>
-	  <iconUrl></iconUrl>
-	  <license url="http://opensource.org/licenses/MIT">MIT License</license>
-      <url>https://www.enterspeed.com</url>
-      <requirements type="Strict">
-        <major>8</major>
-        <minor>16</minor>
-        <patch>0</patch>
-      </requirements>
-    </package>
-    <author>
-      <name>Enterspeed</name>
-      <website>https://www.enterspeed.com</website>
-    </author>
-	<contributors></contributors>
-	<readme>
-		<![CDATA[Content package for Enterspeed Umbraco multisite beers tutorial. 
+	<info>
+		<package>
+			<name>Umbraco Multisite (Beers)</name>
+			<version>1.0.0</version>
+			<iconUrl></iconUrl>
+			<license url="http://opensource.org/licenses/MIT">MIT License</license>
+			<url>https://www.enterspeed.com</url>
+			<requirements type="Strict">
+				<major>8</major>
+				<minor>16</minor>
+				<patch>0</patch>
+			</requirements>
+		</package>
+		<author>
+			<name>Enterspeed</name>
+			<website>https://www.enterspeed.com</website>
+		</author>
+		<contributors></contributors>
+		<readme>
+			<![CDATA[Content package for Enterspeed Umbraco multisite beers tutorial. 
 		Adapted from the official Umbraco Starter kit]]>
-	</readme>
-  </info>
-  <Documents>
-    <DocumentSet importMode="root">
-      <home id="1097" key="ca4249ed-2b23-4337-b522-63cabe5587d1" parentID="-1" level="1" creatorID="-1" sortOrder="0" createDate="2022-06-30T14:18:01" updateDate="2022-07-06T16:58:23" nodeName="Dev Beer" urlName="dev-beer" path="-1,1097" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1078" isPublished="true">
-        <heroHeader><![CDATA[Beer for developers by developers]]></heroHeader>
-        <heroDescription><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.
+		</readme>
+	</info>
+	<Documents>
+		<DocumentSet importMode="root">
+			<home id="1097" key="ca4249ed-2b23-4337-b522-63cabe5587d1" parentID="-1" level="1" creatorID="-1" sortOrder="0" createDate="2022-06-30T14:18:01" updateDate="2022-07-06T16:58:23" nodeName="Dev Beer" urlName="dev-beer" path="-1,1097" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1078" isPublished="true">
+				<heroHeader><![CDATA[Beer for developers by developers]]></heroHeader>
+				<heroDescription>
+					<![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.
 
-]]>        </heroDescription>
-        <heroCTACaption><![CDATA[Check our geeky beers]]></heroCTACaption>
-        <HeroCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></HeroCtalink>
-        <bodyText><![CDATA[{"name":"1 column layout","sections":[{"grid":"12","rows":[{"name":"Full Width","id":"314cb47b-fbe1-eeb6-f7cc-38db875d0f06","areas":[{"grid":"12","controls":[{"value":{"macroAlias":"latestBlogposts","macroParamsDictionary":{"numberOfPosts":"3","startNodeId":"umb://document/1d770f10d1ca4a269d68071e2c9f7ac1"}},"editor":{"alias":"macro","view":"macro"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null}]}]}]]></bodyText>
-        <footerHeader><![CDATA[Umbraco Demo]]></footerHeader>
-        <footerDescription><![CDATA[Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat]]></footerDescription>
-        <footerCTACaption><![CDATA[Read All on the Blog]]></footerCTACaption>
-        <FooterCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></FooterCtalink>
-        <footerAddress><![CDATA[Umbraco HQ - Unicorn Square - Haubergsvej 1 - 5000 Odense C - Denmark - +45 70 26 11 62]]></footerAddress>
-        <HeroBackgroundImage><![CDATA[umb://media/bda234a6615a47b8a74cdf6992925de8]]></HeroBackgroundImage>
-        <font><![CDATA[serif]]></font>
-        <colorTheme><![CDATA[earth]]></colorTheme>
-        <sitename><![CDATA[Dev Beer]]></sitename>
-        <SiteLogo><![CDATA[umb://media/b0b495899767430890d051bbc25f3485]]></SiteLogo>
-        <beers id="1191" key="ac098fb2-fd08-4a42-b069-13355ca36ad6" parentID="1097" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:24:37" updateDate="2022-07-05T13:24:37" nodeName="Beers" urlName="beers" path="-1,1097,1191" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1189" isPublished="true">
-          <beer id="1195" key="bec932cb-5500-46ba-bbc5-732f660286d9" parentID="1191" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:28:54" updateDate="2022-07-05T13:30:25" nodeName="Beer 200" urlName="beer-200" path="-1,1097,1191,1195" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Beer 200]]></beerName>
-            <type><![CDATA[Pilsner]]></type>
-            <abv><![CDATA[4.7%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]>
+				</heroDescription>
+				<heroCTACaption><![CDATA[Check our geeky beers]]></heroCTACaption>
+				<HeroBackgroundImage><![CDATA[umb://media/bda234a6615a47b8a74cdf6992925de8]]></HeroBackgroundImage>
+				<sitename><![CDATA[Dev Beer]]></sitename>
+				<beers id="1191" key="ac098fb2-fd08-4a42-b069-13355ca36ad6" parentID="1097" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:24:37" updateDate="2022-07-05T13:24:37" nodeName="Beers" urlName="beers" path="-1,1097,1191" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1189" isPublished="true">
+					<beer id="1195" key="bec932cb-5500-46ba-bbc5-732f660286d9" parentID="1191" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:28:54" updateDate="2022-07-05T13:30:25" nodeName="Beer 200" urlName="beer-200" path="-1,1097,1191,1195" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Beer 200]]></beerName>
+						<type><![CDATA[Pilsner]]></type>
+						<abv><![CDATA[4.7%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "1f942ac5-1dc1-44b4-8f8b-64819c198b47",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -60,14 +52,16 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-          <beer id="1201" key="0e4acd68-ad2b-4dcf-aeae-b3271cffb51f" parentID="1191" level="3" creatorID="-1" sortOrder="1" createDate="2022-07-05T15:48:30" updateDate="2022-07-05T15:48:31" nodeName="Beer 404" urlName="beer-404" path="-1,1097,1191,1201" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Beer 404]]></beerName>
-            <type><![CDATA[Ale]]></type>
-            <abv><![CDATA[5.2%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+					<beer id="1201" key="0e4acd68-ad2b-4dcf-aeae-b3271cffb51f" parentID="1191" level="3" creatorID="-1" sortOrder="1" createDate="2022-07-05T15:48:30" updateDate="2022-07-05T15:48:31" nodeName="Beer 404" urlName="beer-404" path="-1,1097,1191,1201" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Beer 404]]></beerName>
+						<type><![CDATA[Ale]]></type>
+						<abv><![CDATA[5.2%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "73574851-00c7-4ce3-b87b-c53ea74ea411",
     "mediaKey": "5800db8d-ffce-4d1f-84fc-bfaae729559e",
@@ -77,14 +71,16 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-          <beer id="1213" key="3e4c8811-f74a-4be6-959b-c36af10d9e20" parentID="1191" level="3" creatorID="-1" sortOrder="2" createDate="2022-07-06T17:03:59" updateDate="2022-07-06T17:04:33" nodeName="Beer 301" urlName="beer-301" path="-1,1097,1191,1213" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Beer 301]]></beerName>
-            <type><![CDATA[IPA]]></type>
-            <abv><![CDATA[4.6%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+					<beer id="1213" key="3e4c8811-f74a-4be6-959b-c36af10d9e20" parentID="1191" level="3" creatorID="-1" sortOrder="2" createDate="2022-07-06T17:03:59" updateDate="2022-07-06T17:04:33" nodeName="Beer 301" urlName="beer-301" path="-1,1097,1191,1213" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Beer 301]]></beerName>
+						<type><![CDATA[IPA]]></type>
+						<abv><![CDATA[4.6%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "1f942ac5-1dc1-44b4-8f8b-64819c198b47",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -94,14 +90,16 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-          <beer id="1214" key="e18fc457-921b-41a1-b1c1-3efd8b447caf" parentID="1191" level="3" creatorID="-1" sortOrder="3" createDate="2022-07-06T17:04:51" updateDate="2022-07-06T17:05:42" nodeName="Beer 500" urlName="beer-500" path="-1,1097,1191,1214" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Beer 500]]></beerName>
-            <type><![CDATA[Sour]]></type>
-            <abv><![CDATA[4.4%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+					<beer id="1214" key="e18fc457-921b-41a1-b1c1-3efd8b447caf" parentID="1191" level="3" creatorID="-1" sortOrder="3" createDate="2022-07-06T17:04:51" updateDate="2022-07-06T17:05:42" nodeName="Beer 500" urlName="beer-500" path="-1,1097,1191,1214" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Beer 500]]></beerName>
+						<type><![CDATA[Sour]]></type>
+						<abv><![CDATA[4.4%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "1f942ac5-1dc1-44b4-8f8b-64819c198b47",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -111,14 +109,16 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-          <beer id="1215" key="d54a130f-34e7-4a7a-85a8-34ce9b52a3ca" parentID="1191" level="3" creatorID="-1" sortOrder="4" createDate="2022-07-06T17:05:51" updateDate="2022-07-06T17:07:08" nodeName="Beer 103" urlName="beer-103" path="-1,1097,1191,1215" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Beer 103]]></beerName>
-            <type><![CDATA[Irish Stout]]></type>
-            <abv><![CDATA[5.0%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+					<beer id="1215" key="d54a130f-34e7-4a7a-85a8-34ce9b52a3ca" parentID="1191" level="3" creatorID="-1" sortOrder="4" createDate="2022-07-06T17:05:51" updateDate="2022-07-06T17:07:08" nodeName="Beer 103" urlName="beer-103" path="-1,1097,1191,1215" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Beer 103]]></beerName>
+						<type><![CDATA[Irish Stout]]></type>
+						<abv><![CDATA[5.0%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "1f942ac5-1dc1-44b4-8f8b-64819c198b47",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -128,14 +128,16 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-          <beer id="1216" key="a80c5340-5d08-4b02-90bc-1b37887ab723" parentID="1191" level="3" creatorID="-1" sortOrder="5" createDate="2022-07-06T17:08:00" updateDate="2022-07-06T17:08:21" nodeName="Beer 418" urlName="beer-418" path="-1,1097,1191,1216" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Beer 418]]></beerName>
-            <type><![CDATA[Tea ale]]></type>
-            <abv><![CDATA[1.0%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+					<beer id="1216" key="a80c5340-5d08-4b02-90bc-1b37887ab723" parentID="1191" level="3" creatorID="-1" sortOrder="5" createDate="2022-07-06T17:08:00" updateDate="2022-07-06T17:08:21" nodeName="Beer 418" urlName="beer-418" path="-1,1097,1191,1216" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Beer 418]]></beerName>
+						<type><![CDATA[Tea ale]]></type>
+						<abv><![CDATA[1.0%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "1f942ac5-1dc1-44b4-8f8b-64819c198b47",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -145,38 +147,31 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-        </beers>
-        <page id="1196" key="f1e35510-b840-4646-8f98-ab3cfc1be74b" parentID="1097" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-05T13:30:10" updateDate="2022-07-06T17:02:07" nodeName="About" urlName="about" path="-1,1097,1196" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1185" isPublished="true">
-          <pageTitle><![CDATA[About ]]></pageTitle>
-          <bodyText><![CDATA[<p>Bière</p>]]></bodyText>
-        </page>
-      </home>
-    </DocumentSet>
-    <DocumentSet importMode="root">
-      <home id="1150" key="3bb40578-2e69-437b-ad51-fab30ed3c002" parentID="-1" level="1" creatorID="-1" sortOrder="1" createDate="2022-07-01T08:15:17" updateDate="2022-07-06T16:58:48" nodeName="ToBeer" urlName="tobeer" path="-1,1150" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1078" isPublished="true">
-        <heroHeader><![CDATA[The one and only boss beer]]></heroHeader>
-        <heroDescription><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.]]></heroDescription>
-        <heroCTACaption><![CDATA[Check out our awesome beers]]></heroCTACaption>
-        <HeroCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></HeroCtalink>
-        <bodyText><![CDATA[{"name":"1 column layout","sections":[{"grid":"12","rows":[{"name":"Full Width","id":"314cb47b-fbe1-eeb6-f7cc-38db875d0f06","areas":[{"grid":"12","controls":[{"value":{"macroAlias":"latestBlogposts","macroParamsDictionary":{"numberOfPosts":"3","startNodeId":"umb://document/1d770f10d1ca4a269d68071e2c9f7ac1"}},"editor":{"alias":"macro","view":"macro"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null}]}]}]]></bodyText>
-        <footerHeader><![CDATA[Umbraco Demo]]></footerHeader>
-        <footerDescription><![CDATA[Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat]]></footerDescription>
-        <footerCTACaption><![CDATA[Read All on the Blog]]></footerCTACaption>
-        <FooterCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></FooterCtalink>
-        <footerAddress><![CDATA[Umbraco HQ - Unicorn Square - Haubergsvej 1 - 5000 Odense C - Denmark - +45 70 26 11 62]]></footerAddress>
-        <HeroBackgroundImage><![CDATA[umb://media/083cefdc654a4bff88af4de7be052173]]></HeroBackgroundImage>
-        <font><![CDATA[serif]]></font>
-        <colorTheme><![CDATA[earth]]></colorTheme>
-        <sitename><![CDATA[Tobeer]]></sitename>
-        <beers id="1197" key="28cc662f-d66e-4b36-a269-d6de942581ab" parentID="1150" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:35:59" updateDate="2022-07-05T13:37:13" nodeName="Beers" urlName="beers" path="-1,1150,1197" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1189" isPublished="true">
-          <beer id="1198" key="3fd9dc2d-ca1b-4614-9379-72add0d8e44a" parentID="1197" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:37:05" updateDate="2022-07-05T13:37:22" nodeName="Beer" urlName="beer" path="-1,1150,1197,1198" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Lorem Beer]]></beerName>
-            <type><![CDATA[Pilsner]]></type>
-            <abv><![CDATA[4.7%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+				</beers>
+				<page id="1196" key="f1e35510-b840-4646-8f98-ab3cfc1be74b" parentID="1097" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-05T13:30:10" updateDate="2022-07-06T17:02:07" nodeName="About" urlName="about" path="-1,1097,1196" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1185" isPublished="true">
+					<pageTitle><![CDATA[About ]]></pageTitle>
+					<bodyText><![CDATA[<p>Bière</p>]]></bodyText>
+				</page>
+			</home>
+		</DocumentSet>
+		<DocumentSet importMode="root">
+			<home id="1150" key="3bb40578-2e69-437b-ad51-fab30ed3c002" parentID="-1" level="1" creatorID="-1" sortOrder="1" createDate="2022-07-01T08:15:17" updateDate="2022-07-06T16:58:48" nodeName="ToBeer" urlName="tobeer" path="-1,1150" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1078" isPublished="true">
+				<heroHeader><![CDATA[The one and only boss beer]]></heroHeader>
+				<heroDescription><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.]]></heroDescription>
+				<heroCTACaption><![CDATA[Check out our awesome beers]]></heroCTACaption>
+				<HeroBackgroundImage><![CDATA[umb://media/083cefdc654a4bff88af4de7be052173]]></HeroBackgroundImage>
+				<sitename><![CDATA[Tobeer]]></sitename>
+				<beers id="1197" key="28cc662f-d66e-4b36-a269-d6de942581ab" parentID="1150" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:35:59" updateDate="2022-07-05T13:37:13" nodeName="Beers" urlName="beers" path="-1,1150,1197" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1189" isPublished="true">
+					<beer id="1198" key="3fd9dc2d-ca1b-4614-9379-72add0d8e44a" parentID="1197" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:37:05" updateDate="2022-07-05T13:37:22" nodeName="Beer" urlName="beer" path="-1,1150,1197,1198" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Lorem Beer]]></beerName>
+						<type><![CDATA[Pilsner]]></type>
+						<abv><![CDATA[4.7%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "cf6dbfc5-91a3-45d6-815d-fc2e0dc487f5",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -186,38 +181,31 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-        </beers>
-        <page id="1199" key="83a82dbd-0f59-4d45-8241-85d623236b99" parentID="1150" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-05T13:37:44" updateDate="2022-07-06T17:01:47" nodeName="About" urlName="about" path="-1,1150,1199" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1185" isPublished="true">
-          <pageTitle><![CDATA[About]]></pageTitle>
-          <bodyText><![CDATA[<p>Cerveja</p>]]></bodyText>
-        </page>
-      </home>
-    </DocumentSet>
-    <DocumentSet importMode="root">
-      <home id="1203" key="775a1fbb-d7ef-44f4-9b35-39e87c7494d6" parentID="-1" level="1" creatorID="-1" sortOrder="2" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T16:56:51" nodeName="Lorem Beer" urlName="lorem-beer" path="-1,1203" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1078" isPublished="true">
-        <heroHeader><![CDATA[Lorem ipsum dolor sit beer!]]></heroHeader>
-        <heroDescription><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.]]></heroDescription>
-        <heroCTACaption><![CDATA[Check out our lorem beers]]></heroCTACaption>
-        <HeroCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></HeroCtalink>
-        <bodyText><![CDATA[{"name":"1 column layout","sections":[{"grid":"12","rows":[{"name":"Full Width","id":"314cb47b-fbe1-eeb6-f7cc-38db875d0f06","areas":[{"grid":"12","controls":[{"value":{"macroAlias":"latestBlogposts","macroParamsDictionary":{"numberOfPosts":"3","startNodeId":"umb://document/1d770f10d1ca4a269d68071e2c9f7ac1"}},"editor":{"alias":"macro","view":"macro"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null}]}]}]]></bodyText>
-        <footerHeader><![CDATA[Umbraco Demo]]></footerHeader>
-        <footerDescription><![CDATA[Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat]]></footerDescription>
-        <footerCTACaption><![CDATA[Read All on the Blog]]></footerCTACaption>
-        <FooterCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></FooterCtalink>
-        <footerAddress><![CDATA[Umbraco HQ - Unicorn Square - Haubergsvej 1 - 5000 Odense C - Denmark - +45 70 26 11 62]]></footerAddress>
-        <HeroBackgroundImage><![CDATA[umb://media/24ccf5a860a34c678640062496a164fa]]></HeroBackgroundImage>
-        <font><![CDATA[serif]]></font>
-        <colorTheme><![CDATA[earth]]></colorTheme>
-        <sitename><![CDATA[Lorem Beer]]></sitename>
-        <beers id="1204" key="fb4d34af-fd16-4769-a30c-944154a953a5" parentID="1203" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T16:20:19" nodeName="Beers" urlName="beers" path="-1,1203,1204" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1189" isPublished="true">
-          <beer id="1205" key="9f810324-9a4e-4681-9128-d4a2f57b277f" parentID="1204" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T16:20:19" nodeName="Beer" urlName="beer" path="-1,1203,1204,1205" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Lorem Beer]]></beerName>
-            <type><![CDATA[Pilsner]]></type>
-            <abv><![CDATA[4.7%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+				</beers>
+				<page id="1199" key="83a82dbd-0f59-4d45-8241-85d623236b99" parentID="1150" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-05T13:37:44" updateDate="2022-07-06T17:01:47" nodeName="About" urlName="about" path="-1,1150,1199" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1185" isPublished="true">
+					<pageTitle><![CDATA[About]]></pageTitle>
+					<bodyText><![CDATA[<p>Cerveja</p>]]></bodyText>
+				</page>
+			</home>
+		</DocumentSet>
+		<DocumentSet importMode="root">
+			<home id="1203" key="775a1fbb-d7ef-44f4-9b35-39e87c7494d6" parentID="-1" level="1" creatorID="-1" sortOrder="2" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T16:56:51" nodeName="Lorem Beer" urlName="lorem-beer" path="-1,1203" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1078" isPublished="true">
+				<heroHeader><![CDATA[Lorem ipsum dolor sit beer!]]></heroHeader>
+				<heroDescription><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.]]></heroDescription>
+				<heroCTACaption><![CDATA[Check out our lorem beers]]></heroCTACaption>
+				<HeroBackgroundImage><![CDATA[umb://media/24ccf5a860a34c678640062496a164fa]]></HeroBackgroundImage>
+				<sitename><![CDATA[Lorem Beer]]></sitename>
+				<beers id="1204" key="fb4d34af-fd16-4769-a30c-944154a953a5" parentID="1203" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T16:20:19" nodeName="Beers" urlName="beers" path="-1,1203,1204" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1189" isPublished="true">
+					<beer id="1205" key="9f810324-9a4e-4681-9128-d4a2f57b277f" parentID="1204" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T16:20:19" nodeName="Beer" urlName="beer" path="-1,1203,1204,1205" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Lorem Beer]]></beerName>
+						<type><![CDATA[Pilsner]]></type>
+						<abv><![CDATA[4.7%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "cf6dbfc5-91a3-45d6-815d-fc2e0dc487f5",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -227,38 +215,31 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-        </beers>
-        <page id="1206" key="297cf40a-5526-4ad3-a5e8-f6aee1e9af5a" parentID="1203" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T17:01:25" nodeName="About" urlName="about" path="-1,1203,1206" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1185" isPublished="true">
-          <pageTitle><![CDATA[About]]></pageTitle>
-          <bodyText><![CDATA[<p>Bier</p>]]></bodyText>
-        </page>
-      </home>
-    </DocumentSet>
-    <DocumentSet importMode="root">
-      <home id="1208" key="ea1f54e8-0300-4d1d-97fe-7187f99e962a" parentID="-1" level="1" creatorID="-1" sortOrder="3" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T16:55:36" nodeName="Ice beer" urlName="ice-beer" path="-1,1208" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1078" isPublished="true">
-        <heroHeader><![CDATA[Enjoy an icecold beer]]></heroHeader>
-        <heroDescription><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.]]></heroDescription>
-        <heroCTACaption><![CDATA[Check out our freezing beers]]></heroCTACaption>
-        <HeroCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></HeroCtalink>
-        <bodyText><![CDATA[{"name":"1 column layout","sections":[{"grid":"12","rows":[{"name":"Full Width","id":"314cb47b-fbe1-eeb6-f7cc-38db875d0f06","areas":[{"grid":"12","controls":[{"value":{"macroAlias":"latestBlogposts","macroParamsDictionary":{"numberOfPosts":"3","startNodeId":"umb://document/1d770f10d1ca4a269d68071e2c9f7ac1"}},"editor":{"alias":"macro","view":"macro"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null}]}]}]]></bodyText>
-        <footerHeader><![CDATA[Umbraco Demo]]></footerHeader>
-        <footerDescription><![CDATA[Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat]]></footerDescription>
-        <footerCTACaption><![CDATA[Read All on the Blog]]></footerCTACaption>
-        <FooterCtalink><![CDATA[umb://document/ac098fb2fd084a42b06913355ca36ad6]]></FooterCtalink>
-        <footerAddress><![CDATA[Umbraco HQ - Unicorn Square - Haubergsvej 1 - 5000 Odense C - Denmark - +45 70 26 11 62]]></footerAddress>
-        <HeroBackgroundImage><![CDATA[umb://media/2c751f72ebd1446f93debcf0f8b98396]]></HeroBackgroundImage>
-        <font><![CDATA[serif]]></font>
-        <colorTheme><![CDATA[earth]]></colorTheme>
-        <sitename><![CDATA[Ice beer]]></sitename>
-        <beers id="1209" key="ad97b271-4e9f-415b-aa2a-812fff3b20c1" parentID="1208" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T16:20:10" nodeName="Beers" urlName="beers" path="-1,1208,1209" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1189" isPublished="true">
-          <beer id="1210" key="5a762864-449c-47f0-a6bb-86e72ab40720" parentID="1209" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T16:20:10" nodeName="Beer" urlName="beer" path="-1,1208,1209,1210" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1187" isPublished="true">
-            <beerName><![CDATA[Lorem Beer]]></beerName>
-            <type><![CDATA[Pilsner]]></type>
-            <abv><![CDATA[4.7%]]></abv>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
-            <image><![CDATA[[
+]]]>
+						</image>
+					</beer>
+				</beers>
+				<page id="1206" key="297cf40a-5526-4ad3-a5e8-f6aee1e9af5a" parentID="1203" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-06T16:14:41" updateDate="2022-07-06T17:01:25" nodeName="About" urlName="about" path="-1,1203,1206" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1185" isPublished="true">
+					<pageTitle><![CDATA[About]]></pageTitle>
+					<bodyText><![CDATA[<p>Bier</p>]]></bodyText>
+				</page>
+			</home>
+		</DocumentSet>
+		<DocumentSet importMode="root">
+			<home id="1208" key="ea1f54e8-0300-4d1d-97fe-7187f99e962a" parentID="-1" level="1" creatorID="-1" sortOrder="3" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T16:55:36" nodeName="Ice beer" urlName="ice-beer" path="-1,1208" isDoc="" nodeType="1092" nodeTypeAlias="home" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1078" isPublished="true">
+				<heroHeader><![CDATA[Enjoy an icecold beer]]></heroHeader>
+				<heroDescription><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur tempor nisl, quis porta dui aliquet eget. Duis odio massa, condimentum quis massa eu, venenatis auctor eros. In auctor quis ipsum nec pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum id mauris vitae hendrerit. Vestibulum semper maximus.]]></heroDescription>
+				<heroCTACaption><![CDATA[Check out our freezing beers]]></heroCTACaption>
+				<HeroBackgroundImage><![CDATA[umb://media/2c751f72ebd1446f93debcf0f8b98396]]></HeroBackgroundImage>
+				<sitename><![CDATA[Ice beer]]></sitename>
+				<beers id="1209" key="ad97b271-4e9f-415b-aa2a-812fff3b20c1" parentID="1208" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T16:20:10" nodeName="Beers" urlName="beers" path="-1,1208,1209" isDoc="" nodeType="1190" nodeTypeAlias="beers" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1189" isPublished="true">
+					<beer id="1210" key="5a762864-449c-47f0-a6bb-86e72ab40720" parentID="1209" level="3" creatorID="-1" sortOrder="0" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T16:20:10" nodeName="Beer" urlName="beer" path="-1,1208,1209,1210" isDoc="" nodeType="1188" nodeTypeAlias="beer" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1187" isPublished="true">
+						<beerName><![CDATA[Lorem Beer]]></beerName>
+						<type><![CDATA[Pilsner]]></type>
+						<abv><![CDATA[4.7%]]></abv>
+						<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus risus vel eros vestibulum, eget luctus ex cursus. Phasellus hendrerit tellus convallis, sodales tellus ut, feugiat urna. Donec volutpat elementum fringilla. Nulla nec elementum ante, sed fermentum nisi. In sed tortor vitae elit efficitur varius. Morbi sagittis egestas diam sit.]]></description>
+						<image>
+							<![CDATA[[
   {
     "key": "cf6dbfc5-91a3-45d6-815d-fc2e0dc487f5",
     "mediaKey": "b96fa049-3f57-4cba-b698-0bd5a66c178b",
@@ -268,607 +249,373 @@
       "top": 0.5
     }
   }
-]]]></image>
-          </beer>
-        </beers>
-        <page id="1211" key="cb6418d7-8138-4a58-ad4a-28ec8d30c200" parentID="1208" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T17:01:35" nodeName="About" urlName="about" path="-1,1208,1211" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Enterspeed" writerName="Enterspeed" writerID="-1" template="1185" isPublished="true">
-          <pageTitle><![CDATA[About]]></pageTitle>
-          <bodyText><![CDATA[<p>Cervesa</p>]]></bodyText>
-        </page>
-      </home>
-    </DocumentSet>
-  </Documents>
-  <DocumentTypes>
-    <DocumentType>
-      <Info>
-        <Name>Beer</Name>
-        <Alias>beer</Alias>
-        <Key>6a1a3cc1-8486-4adc-b819-e36c7189c357</Key>
-        <Icon>icon-document</Icon>
-        <Thumbnail>folder.png</Thumbnail>
-        <Description />
-        <AllowAtRoot>False</AllowAtRoot>
-        <IsListView>False</IsListView>
-        <IsElement>False</IsElement>
-        <Variations>Nothing</Variations>
-        <Compositions />
-        <AllowedTemplates>
-          <Template>Beer</Template>
-        </AllowedTemplates>
-        <DefaultTemplate>Beer</DefaultTemplate>
-      </Info>
-      <Structure />
-      <GenericProperties>
-        <GenericProperty>
-          <Name>Beer name</Name>
-          <Alias>beerName</Alias>
-          <Key>f1e651d1-1df5-498d-867c-d628f400df7d</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="details">Details</Tab>
-          <SortOrder>0</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>True</LabelOnTop>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Type</Name>
-          <Alias>type</Alias>
-          <Key>e3c902d2-4f63-4f2d-b528-e0075592a9a1</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="details">Details</Tab>
-          <SortOrder>1</SortOrder>
-          <Mandatory>False</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>ABV</Name>
-          <Alias>abv</Alias>
-          <Key>912bbc05-6084-4805-bda0-cc7edfc6d528</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="details">Details</Tab>
-          <SortOrder>2</SortOrder>
-          <Mandatory>False</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Description</Name>
-          <Alias>description</Alias>
-          <Key>f943824e-23be-442d-9ebf-525312a47d46</Key>
-          <Type>Umbraco.TextArea</Type>
-          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
-          <Tab Alias="details">Details</Tab>
-          <SortOrder>3</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Image</Name>
-          <Alias>image</Alias>
-          <Key>b16e6a44-f0a7-40a2-900b-8b4ec6870268</Key>
-          <Type>Umbraco.MediaPicker3</Type>
-          <Definition>ad9f0cf2-bda2-45d5-9ea1-a63cfc873fd3</Definition>
-          <Tab Alias="details">Details</Tab>
-          <SortOrder>4</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>True</LabelOnTop>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-      </GenericProperties>
-      <Tabs>
-        <Tab>
-          <Id>75</Id>
-          <Key>bd1015fc-335b-46d5-8698-05d11599c543</Key>
-          <Type>Group</Type>
-          <Caption>Details</Caption>
-          <Alias>details</Alias>
-          <SortOrder>0</SortOrder>
-        </Tab>
-      </Tabs>
-    </DocumentType>
-    <DocumentType>
-      <Info>
-        <Name>Beers</Name>
-        <Alias>beers</Alias>
-        <Key>50ca5b7a-6752-4925-94ef-2c4350b93623</Key>
-        <Icon>icon-beer-glass color-black</Icon>
-        <Thumbnail>folder.png</Thumbnail>
-        <Description />
-        <AllowAtRoot>False</AllowAtRoot>
-        <IsListView>False</IsListView>
-        <IsElement>False</IsElement>
-        <Variations>Nothing</Variations>
-        <Compositions />
-        <AllowedTemplates>
-          <Template>Beers</Template>
-        </AllowedTemplates>
-        <DefaultTemplate>Beers</DefaultTemplate>
-      </Info>
-      <Structure>
-        <DocumentType>beer</DocumentType>
-      </Structure>
-      <GenericProperties />
-      <Tabs />
-    </DocumentType>
-    <DocumentType>
-      <Info>
-        <Name>Page</Name>
-        <Alias>page</Alias>
-        <Key>87824637-c097-4086-997b-8626938d5f09</Key>
-        <Icon>icon-document</Icon>
-        <Thumbnail>folder.png</Thumbnail>
-        <Description />
-        <AllowAtRoot>False</AllowAtRoot>
-        <IsListView>False</IsListView>
-        <IsElement>False</IsElement>
-        <Variations>Nothing</Variations>
-        <Compositions />
-        <AllowedTemplates>
-          <Template>Page</Template>
-        </AllowedTemplates>
-        <DefaultTemplate>Page</DefaultTemplate>
-      </Info>
-      <Structure />
-      <GenericProperties>
-        <GenericProperty>
-          <Name>Page title</Name>
-          <Alias>pageTitle</Alias>
-          <Key>56623b72-01f0-4db8-a490-06a8f62118e4</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="content">Content</Tab>
-          <SortOrder>0</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>True</LabelOnTop>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Content</Name>
-          <Alias>bodyText</Alias>
-          <Key>bc8f64fb-bf4c-41bc-8381-bef60e41119c</Key>
-          <Type>Umbraco.TinyMCE</Type>
-          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
-          <Tab Alias="content">Content</Tab>
-          <SortOrder>1</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>True</LabelOnTop>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-      </GenericProperties>
-      <Tabs>
-        <Tab>
-          <Id>74</Id>
-          <Key>577e5bea-644f-43da-bcd2-300ac34cd3a4</Key>
-          <Type>Group</Type>
-          <Caption>Content</Caption>
-          <Alias>content</Alias>
-          <SortOrder>0</SortOrder>
-        </Tab>
-      </Tabs>
-    </DocumentType>
-    <DocumentType>
-      <Info>
-        <Name>Home</Name>
-        <Alias>home</Alias>
-        <Key>5a3911ec-c263-431e-8688-f369257c2d50</Key>
-        <Icon>icon-home color-black</Icon>
-        <Thumbnail>folder.png</Thumbnail>
-        <Description />
-        <AllowAtRoot>True</AllowAtRoot>
-        <IsListView>False</IsListView>
-        <IsElement>False</IsElement>
-        <Variations>Nothing</Variations>
-        <Compositions />
-        <AllowedTemplates>
-          <Template>home</Template>
-        </AllowedTemplates>
-        <DefaultTemplate>home</DefaultTemplate>
-      </Info>
-      <Structure>
-        <DocumentType>page</DocumentType>
-        <DocumentType>beers</DocumentType>
-      </Structure>
-      <GenericProperties>
-        <GenericProperty>
-          <Name>Header</Name>
-          <Alias>heroHeader</Alias>
-          <Key>4655b72d-37a5-4bce-8f1a-90dfe8868ff4</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="hero">Hero</Tab>
-          <SortOrder>0</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[This is the main headline for the hero area on the Homepage]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Description</Name>
-          <Alias>heroDescription</Alias>
-          <Key>f44ca309-1350-4e62-8104-ef18b7ca435f</Key>
-          <Type>Umbraco.TextArea</Type>
-          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
-          <Tab Alias="hero">Hero</Tab>
-          <SortOrder>1</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Call To Action Caption</Name>
-          <Alias>heroCTACaption</Alias>
-          <Key>7983be4c-ae98-43c6-86c2-19e2a77f210c</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="hero">Hero</Tab>
-          <SortOrder>2</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[The caption on the button]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Call To Action Link</Name>
-          <Alias>HeroCtalink</Alias>
-          <Key>45149228-9c47-4321-9762-be81d3d06516</Key>
-          <Type>Umbraco.ContentPicker</Type>
-          <Definition>3ece86aa-61ad-45d5-b1dd-8f02f25df949</Definition>
-          <Tab Alias="hero">Hero</Tab>
-          <SortOrder>3</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Content</Name>
-          <Alias>bodyText</Alias>
-          <Key>6ae386d0-60f1-4ed4-b1b1-fc33094c330f</Key>
-          <Type>Umbraco.Grid</Type>
-          <Definition>34a7f8f5-a84e-439b-9322-466ff7ed8866</Definition>
-          <Tab Alias="content">Content</Tab>
-          <SortOrder>0</SortOrder>
-          <Mandatory>False</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Header</Name>
-          <Alias>footerHeader</Alias>
-          <Key>c1231212-4f53-4eb4-82b5-9a3b9cf0d396</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="footer">Footer</Tab>
-          <SortOrder>0</SortOrder>
-          <Mandatory>False</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Description</Name>
-          <Alias>footerDescription</Alias>
-          <Key>45ae5c41-40b2-4d85-a6f8-b2ee33f9df30</Key>
-          <Type>Umbraco.TextArea</Type>
-          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
-          <Tab Alias="footer">Footer</Tab>
-          <SortOrder>1</SortOrder>
-          <Mandatory>False</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Call To Action Caption</Name>
-          <Alias>footerCTACaption</Alias>
-          <Key>4aff492b-a512-4cae-bd70-af3cd7faad17</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="footer">Footer</Tab>
-          <SortOrder>2</SortOrder>
-          <Mandatory>False</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[Caption on the Call To Action Button]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Call To Action Link</Name>
-          <Alias>FooterCtalink</Alias>
-          <Key>28ba4958-48e7-488e-a48c-7e71461d6b95</Key>
-          <Type>Umbraco.ContentPicker</Type>
-          <Definition>3ece86aa-61ad-45d5-b1dd-8f02f25df949</Definition>
-          <Tab Alias="footer">Footer</Tab>
-          <SortOrder>3</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Address</Name>
-          <Alias>footerAddress</Alias>
-          <Key>0e3e969b-1c0d-4756-8a22-5103b571a8c0</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="footer">Footer</Tab>
-          <SortOrder>4</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Hero Background</Name>
-          <Alias>HeroBackgroundImage</Alias>
-          <Key>e2c7e3b6-7116-40dd-a0e8-0054fe65d0ac</Key>
-          <Type>Umbraco.MediaPicker</Type>
-          <Definition>135d60e0-64d9-49ed-ab08-893c9ba44ae5</Definition>
-          <Tab Alias="design">Design</Tab>
-          <SortOrder>0</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[Spice up the homepage by adding a beautiful photo that relates to your business]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Font</Name>
-          <Alias>font</Alias>
-          <Key>d363e42e-3feb-4955-97ee-dadffcb44cca</Key>
-          <Type>Umbraco.RadioButtonList</Type>
-          <Definition>fff3c360-3f90-45b3-a554-e29ca72cdce4</Definition>
-          <Tab Alias="design">Design</Tab>
-          <SortOrder>1</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Color Theme</Name>
-          <Alias>colorTheme</Alias>
-          <Key>8c7bc313-d79b-42c8-9c8f-17b03afbfb39</Key>
-          <Type>Umbraco.RadioButtonList</Type>
-          <Definition>71548df5-836c-41f8-96ac-5b98fe5e2e19</Definition>
-          <Tab Alias="design">Design</Tab>
-          <SortOrder>2</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Sitename</Name>
-          <Alias>sitename</Alias>
-          <Key>65fa9f3c-cfb7-43e1-8cab-1715c38b09d8</Key>
-          <Type>Umbraco.TextBox</Type>
-          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
-          <Tab Alias="design">Design</Tab>
-          <SortOrder>3</SortOrder>
-          <Mandatory>True</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[Used on the homepage as well as the title and social cards]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-        <GenericProperty>
-          <Name>Logo</Name>
-          <Alias>SiteLogo</Alias>
-          <Key>9ef59ecd-32c0-487c-be3f-c98aa71f3cf4</Key>
-          <Type>Umbraco.MediaPicker</Type>
-          <Definition>135d60e0-64d9-49ed-ab08-893c9ba44ae5</Definition>
-          <Tab Alias="design">Design</Tab>
-          <SortOrder>4</SortOrder>
-          <Mandatory>False</Mandatory>
-          <LabelOnTop>False</LabelOnTop>
-          <MandatoryMessage></MandatoryMessage>
-          <ValidationRegExpMessage></ValidationRegExpMessage>
-          <Description><![CDATA[Optional. If you add a logo it'll be used in the upper left corner instead of the site name. Make sure to use a transparent logo for best results]]></Description>
-          <Variations>Nothing</Variations>
-        </GenericProperty>
-      </GenericProperties>
-      <Tabs>
-        <Tab>
-          <Id>63</Id>
-          <Key>3c14c22b-ab1b-43a0-a99e-d245eae99fbc</Key>
-          <Type>Group</Type>
-          <Caption>Hero</Caption>
-          <Alias>hero</Alias>
-          <SortOrder>0</SortOrder>
-        </Tab>
-        <Tab>
-          <Id>64</Id>
-          <Key>d719c74a-15fa-4338-a421-4186db4fd284</Key>
-          <Type>Group</Type>
-          <Caption>Content</Caption>
-          <Alias>content</Alias>
-          <SortOrder>1</SortOrder>
-        </Tab>
-        <Tab>
-          <Id>65</Id>
-          <Key>d7fd4047-85f4-4e0e-83b5-b94eb37f57bc</Key>
-          <Type>Group</Type>
-          <Caption>Footer</Caption>
-          <Alias>footer</Alias>
-          <SortOrder>2</SortOrder>
-        </Tab>
-        <Tab>
-          <Id>66</Id>
-          <Key>8b202792-714a-47ed-9cf7-c82fbb215525</Key>
-          <Type>Group</Type>
-          <Caption>Design</Caption>
-          <Alias>design</Alias>
-          <SortOrder>3</SortOrder>
-        </Tab>
-      </Tabs>
-    </DocumentType>
-  </DocumentTypes>
-  <MediaTypes />
-  <Templates>
-    <Template>
-      <Name>Beer</Name>
-      <Key>944e570d-c504-4c30-94cc-40774f38a7a2</Key>
-      <Alias>Beer</Alias>
-      <Design><![CDATA[@using Umbraco.Cms.Web.Common.PublishedModels;
-@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Beer>
-@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
-@{
-	Layout = null;
-}]]></Design>
-    </Template>
-    <Template>
-      <Name>Beers</Name>
-      <Key>040ec994-bb4e-4efe-8482-515cb19b2174</Key>
-      <Alias>Beers</Alias>
-      <Design><![CDATA[@using Umbraco.Cms.Web.Common.PublishedModels;
-@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Beers>
-@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
-@{
-	Layout = null;
-}]]></Design>
-    </Template>
-    <Template>
-      <Name>Page</Name>
-      <Key>edb3b5fc-4618-4584-9d88-ebefdbb02aec</Key>
-      <Alias>Page</Alias>
-      <Design><![CDATA[@using Umbraco.Cms.Web.Common.PublishedModels;
-@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Page>
-@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
-@{
-	Layout = null;
-}]]></Design>
-    </Template>
-    <Template>
-      <Name>Home</Name>
-      <Key>b62144fa-cb6f-4c09-aad4-5d8dc0cfc208</Key>
-      <Alias>home</Alias>
-      <Design><![CDATA[
-@using Umbraco.Extensions
-@using Umbraco.Cms.Web.Common.PublishedModels;
-@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Home>
-@{
-    Layout = "master.cshtml";
-    var backgroundImage = Model.HeroBackgroundImage != null ? Model.HeroBackgroundImage.Url() : String.Empty;
-}
-<section class="section section--full-height background-image-full overlay overlay--dark section--content-center section--thick-border" style="background-image: url('@backgroundImage')">
-    <div class="section__hero-content">
-        <h1>@Model.HeroHeader</h1>
-        <p class="section__description">@Model.HeroDescription</p>
-        @if (Model.HeroCtalink != null)
-        {
-            <a class="button button--border--solid" href="@Model.HeroCtalink.Url()">
-                @Model.HeroCtacaption
-            </a>
-        }
-    </div>
-</section>
-
-<section class="section section">
-    @Html.GetGridHtml(Model, "bodyText", "bootstrap3-fluid")
-</section>
-
-
-<section class="section section--themed">
-
-    <div class="container">
-        <div class="row">
-
-            <div class="ta-center">
-                <h2>@Model.FooterHeader</h2>
-                <p class="section__description mw-640 ma-h-auto">@Model.FooterDescription</p>
-
-                <a class="button button--border--light_solid" href="@Model.FooterCtalink.Url()">
-                    @Model.FooterCtacaption
-                </a>
-
-            </div>
-
-        </div>
-    </div>
-
-</section>]]></Design>
-    </Template>
-  </Templates>
-  <Stylesheets />
-  <Scripts />
-  <PartialViews />
-  <Macros />
-  <MacroPartialViews />
-  <DictionaryItems />
-  <Languages />
-  <DataTypes />
-  <MediaItems>
-    <MediaSet>
-      <Image id="1180" key="bda234a6-615a-47b8-a74c-df6992925de8" parentID="-1" level="1" creatorID="-1" sortOrder="3" createDate="2022-07-04T10:50:42" updateDate="2022-07-06T15:19:27" nodeName="Dev beer hero" urlName="dev-beer-hero" path="-1,1180" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/bda234a6615a47b8a74cdf6992925de8" mediaFilePath="/media/ua0kfpk0/dev-beer-hero.jpg">
-        <umbracoFile><![CDATA[{
+]]]>
+						</image>
+					</beer>
+				</beers>
+				<page id="1211" key="cb6418d7-8138-4a58-ad4a-28ec8d30c200" parentID="1208" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-06T16:18:39" updateDate="2022-07-06T17:01:35" nodeName="About" urlName="about" path="-1,1208,1211" isDoc="" nodeType="1186" nodeTypeAlias="page" creatorName="Kasper Andreassen" writerName="Kasper Andreassen" writerID="-1" template="1185" isPublished="true">
+					<pageTitle><![CDATA[About]]></pageTitle>
+					<bodyText><![CDATA[<p>Cervesa</p>]]></bodyText>
+				</page>
+			</home>
+		</DocumentSet>
+	</Documents>
+	<DocumentTypes>
+		<DocumentType>
+			<Info>
+				<Name>Page</Name>
+				<Alias>page</Alias>
+				<Key>87824637-c097-4086-997b-8626938d5f09</Key>
+				<Icon>icon-document</Icon>
+				<Thumbnail>folder.png</Thumbnail>
+				<Description />
+				<AllowAtRoot>False</AllowAtRoot>
+				<IsListView>False</IsListView>
+				<IsElement>False</IsElement>
+				<Variations>Nothing</Variations>
+				<Compositions />
+				<AllowedTemplates />
+				<DefaultTemplate></DefaultTemplate>
+			</Info>
+			<Structure />
+			<GenericProperties>
+				<GenericProperty>
+					<Name>Page title</Name>
+					<Alias>pageTitle</Alias>
+					<Key>56623b72-01f0-4db8-a490-06a8f62118e4</Key>
+					<Type>Umbraco.TextBox</Type>
+					<Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+					<Tab Alias="content">Content</Tab>
+					<SortOrder>0</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>True</LabelOnTop>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Content</Name>
+					<Alias>bodyText</Alias>
+					<Key>bc8f64fb-bf4c-41bc-8381-bef60e41119c</Key>
+					<Type>Umbraco.TinyMCE</Type>
+					<Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+					<Tab Alias="content">Content</Tab>
+					<SortOrder>1</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>True</LabelOnTop>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+			</GenericProperties>
+			<Tabs>
+				<Tab>
+					<Id>74</Id>
+					<Key>577e5bea-644f-43da-bcd2-300ac34cd3a4</Key>
+					<Type>Group</Type>
+					<Caption>Content</Caption>
+					<Alias>content</Alias>
+					<SortOrder>0</SortOrder>
+				</Tab>
+			</Tabs>
+		</DocumentType>
+		<DocumentType>
+			<Info>
+				<Name>Home</Name>
+				<Alias>home</Alias>
+				<Key>5a3911ec-c263-431e-8688-f369257c2d50</Key>
+				<Icon>icon-home color-black</Icon>
+				<Thumbnail>folder.png</Thumbnail>
+				<Description />
+				<AllowAtRoot>True</AllowAtRoot>
+				<IsListView>False</IsListView>
+				<IsElement>False</IsElement>
+				<Variations>Nothing</Variations>
+				<Compositions />
+				<AllowedTemplates />
+				<DefaultTemplate></DefaultTemplate>
+			</Info>
+			<Structure>
+				<DocumentType>page</DocumentType>
+				<DocumentType>beers</DocumentType>
+			</Structure>
+			<GenericProperties>
+				<GenericProperty>
+					<Name>Header</Name>
+					<Alias>heroHeader</Alias>
+					<Key>4655b72d-37a5-4bce-8f1a-90dfe8868ff4</Key>
+					<Type>Umbraco.TextBox</Type>
+					<Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+					<Tab Alias="hero">Hero</Tab>
+					<SortOrder>0</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<MandatoryMessage></MandatoryMessage>
+					<ValidationRegExpMessage></ValidationRegExpMessage>
+					<Description><![CDATA[This is the main headline for the hero area on the Homepage]]></Description>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Description</Name>
+					<Alias>heroDescription</Alias>
+					<Key>f44ca309-1350-4e62-8104-ef18b7ca435f</Key>
+					<Type>Umbraco.TextArea</Type>
+					<Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+					<Tab Alias="hero">Hero</Tab>
+					<SortOrder>1</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<MandatoryMessage></MandatoryMessage>
+					<ValidationRegExpMessage></ValidationRegExpMessage>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Call To Action Caption</Name>
+					<Alias>heroCTACaption</Alias>
+					<Key>7983be4c-ae98-43c6-86c2-19e2a77f210c</Key>
+					<Type>Umbraco.TextBox</Type>
+					<Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+					<Tab Alias="hero">Hero</Tab>
+					<SortOrder>2</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<MandatoryMessage></MandatoryMessage>
+					<ValidationRegExpMessage></ValidationRegExpMessage>
+					<Description><![CDATA[The caption on the button]]></Description>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Hero Background</Name>
+					<Alias>HeroBackgroundImage</Alias>
+					<Key>e2c7e3b6-7116-40dd-a0e8-0054fe65d0ac</Key>
+					<Type>Umbraco.MediaPicker</Type>
+					<Definition>135d60e0-64d9-49ed-ab08-893c9ba44ae5</Definition>
+					<Tab Alias="design">Design</Tab>
+					<SortOrder>0</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<MandatoryMessage></MandatoryMessage>
+					<ValidationRegExpMessage></ValidationRegExpMessage>
+					<Description><![CDATA[Spice up the homepage by adding a beautiful photo that relates to your business]]></Description>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Sitename</Name>
+					<Alias>sitename</Alias>
+					<Key>65fa9f3c-cfb7-43e1-8cab-1715c38b09d8</Key>
+					<Type>Umbraco.TextBox</Type>
+					<Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+					<Tab Alias="design">Design</Tab>
+					<SortOrder>3</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<MandatoryMessage></MandatoryMessage>
+					<ValidationRegExpMessage></ValidationRegExpMessage>
+					<Description><![CDATA[Used on the homepage as well as the title and social cards]]></Description>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+			</GenericProperties>
+			<Tabs>
+				<Tab>
+					<Id>63</Id>
+					<Key>3c14c22b-ab1b-43a0-a99e-d245eae99fbc</Key>
+					<Type>Group</Type>
+					<Caption>Hero</Caption>
+					<Alias>hero</Alias>
+					<SortOrder>0</SortOrder>
+				</Tab>
+				<Tab>
+					<Id>66</Id>
+					<Key>8b202792-714a-47ed-9cf7-c82fbb215525</Key>
+					<Type>Group</Type>
+					<Caption>Design</Caption>
+					<Alias>design</Alias>
+					<SortOrder>3</SortOrder>
+				</Tab>
+			</Tabs>
+		</DocumentType>
+		<DocumentType>
+			<Info>
+				<Name>Beers</Name>
+				<Alias>beers</Alias>
+				<Key>50ca5b7a-6752-4925-94ef-2c4350b93623</Key>
+				<Icon>icon-beer-glass color-black</Icon>
+				<Thumbnail>folder.png</Thumbnail>
+				<Description />
+				<AllowAtRoot>False</AllowAtRoot>
+				<IsListView>False</IsListView>
+				<IsElement>False</IsElement>
+				<Variations>Nothing</Variations>
+				<Compositions />
+				<AllowedTemplates />
+				<DefaultTemplate></DefaultTemplate>
+			</Info>
+			<Structure>
+				<DocumentType>beer</DocumentType>
+			</Structure>
+			<GenericProperties />
+			<Tabs />
+		</DocumentType>
+		<DocumentType>
+			<Info>
+				<Name>Beer</Name>
+				<Alias>beer</Alias>
+				<Key>6a1a3cc1-8486-4adc-b819-e36c7189c357</Key>
+				<Icon>icon-document</Icon>
+				<Thumbnail>folder.png</Thumbnail>
+				<Description />
+				<AllowAtRoot>False</AllowAtRoot>
+				<IsListView>False</IsListView>
+				<IsElement>False</IsElement>
+				<Variations>Nothing</Variations>
+				<Compositions />
+				<AllowedTemplates />
+				<DefaultTemplate></DefaultTemplate>
+			</Info>
+			<Structure />
+			<GenericProperties>
+				<GenericProperty>
+					<Name>Beer name</Name>
+					<Alias>beerName</Alias>
+					<Key>f1e651d1-1df5-498d-867c-d628f400df7d</Key>
+					<Type>Umbraco.TextBox</Type>
+					<Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+					<Tab Alias="details">Details</Tab>
+					<SortOrder>0</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>True</LabelOnTop>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Type</Name>
+					<Alias>type</Alias>
+					<Key>e3c902d2-4f63-4f2d-b528-e0075592a9a1</Key>
+					<Type>Umbraco.TextBox</Type>
+					<Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+					<Tab Alias="details">Details</Tab>
+					<SortOrder>1</SortOrder>
+					<Mandatory>False</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>ABV</Name>
+					<Alias>abv</Alias>
+					<Key>912bbc05-6084-4805-bda0-cc7edfc6d528</Key>
+					<Type>Umbraco.TextBox</Type>
+					<Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+					<Tab Alias="details">Details</Tab>
+					<SortOrder>2</SortOrder>
+					<Mandatory>False</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Description</Name>
+					<Alias>description</Alias>
+					<Key>f943824e-23be-442d-9ebf-525312a47d46</Key>
+					<Type>Umbraco.TextArea</Type>
+					<Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+					<Tab Alias="details">Details</Tab>
+					<SortOrder>3</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>False</LabelOnTop>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+				<GenericProperty>
+					<Name>Image</Name>
+					<Alias>image</Alias>
+					<Key>b16e6a44-f0a7-40a2-900b-8b4ec6870268</Key>
+					<Type>Umbraco.MediaPicker3</Type>
+					<Definition>ad9f0cf2-bda2-45d5-9ea1-a63cfc873fd3</Definition>
+					<Tab Alias="details">Details</Tab>
+					<SortOrder>4</SortOrder>
+					<Mandatory>True</Mandatory>
+					<LabelOnTop>True</LabelOnTop>
+					<Variations>Nothing</Variations>
+				</GenericProperty>
+			</GenericProperties>
+			<Tabs>
+				<Tab>
+					<Id>75</Id>
+					<Key>bd1015fc-335b-46d5-8698-05d11599c543</Key>
+					<Type>Group</Type>
+					<Caption>Details</Caption>
+					<Alias>details</Alias>
+					<SortOrder>0</SortOrder>
+				</Tab>
+			</Tabs>
+		</DocumentType>
+	</DocumentTypes>
+	<MediaTypes />
+	<Templates />
+	<Stylesheets />
+	<Scripts />
+	<PartialViews />
+	<Macros />
+	<MacroPartialViews />
+	<DictionaryItems />
+	<Languages />
+	<DataTypes />
+	<MediaItems>
+		<MediaSet>
+			<Image id="1180" key="bda234a6-615a-47b8-a74c-df6992925de8" parentID="-1" level="1" creatorID="-1" sortOrder="3" createDate="2022-07-04T10:50:42" updateDate="2022-07-06T15:19:27" nodeName="Dev beer hero" urlName="dev-beer-hero" path="-1,1180" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/bda234a6615a47b8a74cdf6992925de8" mediaFilePath="/media/ua0kfpk0/dev-beer-hero.jpg">
+				<umbracoFile>
+					<![CDATA[{
   "src": "/media/ua0kfpk0/dev-beer-hero.jpg",
   "focalPoint": {
     "left": 0.5,
     "top": 0.5
   },
   "crops": null
-}]]></umbracoFile>
-        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
-        <umbracoHeight><![CDATA[1500]]></umbracoHeight>
-        <umbracoBytes><![CDATA[363667]]></umbracoBytes>
-        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
-      </Image>
-    </MediaSet>
-    <MediaSet>
-      <Folder id="1193" key="e7370bb4-c430-4d21-8111-3e5805839dc4" parentID="-1" level="1" creatorID="-1" sortOrder="5" createDate="2022-07-05T13:28:40" updateDate="2022-07-05T13:28:40" nodeName="Beers" urlName="beers" path="-1,1193" isDoc="" nodeType="1031" nodeTypeAlias="Folder" writerName="" writerID="0" udi="umb://media/e7370bb4c4304d2181113e5805839dc4" />
-    </MediaSet>
-    <MediaSet>
-      <Image id="1202" key="083cefdc-654a-4bff-88af-4de7be052173" parentID="-1" level="1" creatorID="-1" sortOrder="6" createDate="2022-07-06T15:19:41" updateDate="2022-07-06T15:19:41" nodeName="Tobeer Hero" urlName="tobeer-hero" path="-1,1202" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/083cefdc654a4bff88af4de7be052173" mediaFilePath="/media/1lxdycck/tobeer-hero.jpg">
-        <umbracoFile><![CDATA[{"src":"/media/1lxdycck/tobeer-hero.jpg","crops":null}]]></umbracoFile>
-        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
-        <umbracoHeight><![CDATA[1281]]></umbracoHeight>
-        <umbracoBytes><![CDATA[197433]]></umbracoBytes>
-        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
-      </Image>
-    </MediaSet>
-    <MediaSet>
-      <Image id="1207" key="24ccf5a8-60a3-4c67-8640-062496a164fa" parentID="-1" level="1" creatorID="-1" sortOrder="7" createDate="2022-07-06T16:18:18" updateDate="2022-07-06T16:18:18" nodeName="Lorem Beer Hero" urlName="lorem-beer-hero" path="-1,1207" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/24ccf5a860a34c678640062496a164fa" mediaFilePath="/media/v10nyjfd/lorem-beer-hero.jpg">
-        <umbracoFile><![CDATA[{"src":"/media/v10nyjfd/lorem-beer-hero.jpg","crops":null}]]></umbracoFile>
-        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
-        <umbracoHeight><![CDATA[1280]]></umbracoHeight>
-        <umbracoBytes><![CDATA[202695]]></umbracoBytes>
-        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
-      </Image>
-    </MediaSet>
-    <MediaSet>
-      <Image id="1212" key="2c751f72-ebd1-446f-93de-bcf0f8b98396" parentID="-1" level="1" creatorID="-1" sortOrder="8" createDate="2022-07-06T16:19:06" updateDate="2022-07-06T16:19:06" nodeName="Ice Beer Hero" urlName="ice-beer-hero" path="-1,1212" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/2c751f72ebd1446f93debcf0f8b98396" mediaFilePath="/media/oqphklgr/ice-beer-hero.jpg">
-        <umbracoFile><![CDATA[{"src":"/media/oqphklgr/ice-beer-hero.jpg","crops":null}]]></umbracoFile>
-        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
-        <umbracoHeight><![CDATA[1280]]></umbracoHeight>
-        <umbracoBytes><![CDATA[201318]]></umbracoBytes>
-        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
-      </Image>
-    </MediaSet>
-  </MediaItems>
+}]]>
+				</umbracoFile>
+				<umbracoWidth><![CDATA[1920]]></umbracoWidth>
+				<umbracoHeight><![CDATA[1500]]></umbracoHeight>
+				<umbracoBytes><![CDATA[363667]]></umbracoBytes>
+				<umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+			</Image>
+		</MediaSet>
+		<MediaSet>
+			<Folder id="1193" key="e7370bb4-c430-4d21-8111-3e5805839dc4" parentID="-1" level="1" creatorID="-1" sortOrder="5" createDate="2022-07-05T13:28:40" updateDate="2022-07-05T13:28:40" nodeName="Beers" urlName="beers" path="-1,1193" isDoc="" nodeType="1031" nodeTypeAlias="Folder" writerName="" writerID="0" udi="umb://media/e7370bb4c4304d2181113e5805839dc4">
+				<Image id="1194" key="b96fa049-3f57-4cba-b698-0bd5a66c178b" parentID="1193" level="2" creatorID="-1" sortOrder="0" createDate="2022-07-05T13:28:50" updateDate="2022-07-05T13:28:50" nodeName="Beer Product" urlName="beer-product" path="-1,1193,1194" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/b96fa0493f574cbab6980bd5a66c178b" mediaFilePath="/media/j4qg5okx/beer-product.jpg">
+					<umbracoFile><![CDATA[{"src":"/media/j4qg5okx/beer-product.jpg","crops":null}]]></umbracoFile>
+					<umbracoWidth><![CDATA[640]]></umbracoWidth>
+					<umbracoHeight><![CDATA[427]]></umbracoHeight>
+					<umbracoBytes><![CDATA[30767]]></umbracoBytes>
+					<umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+				</Image>
+				<Image id="1200" key="5800db8d-ffce-4d1f-84fc-bfaae729559e" parentID="1193" level="2" creatorID="-1" sortOrder="1" createDate="2022-07-05T15:48:26" updateDate="2022-07-05T15:48:26" nodeName="Beer 404" urlName="beer-404" path="-1,1193,1200" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/5800db8dffce4d1f84fcbfaae729559e" mediaFilePath="/media/rpnbawgo/beer-404.jpg">
+					<umbracoFile><![CDATA[{"src":"/media/rpnbawgo/beer-404.jpg","crops":null}]]></umbracoFile>
+					<umbracoWidth><![CDATA[640]]></umbracoWidth>
+					<umbracoHeight><![CDATA[427]]></umbracoHeight>
+					<umbracoBytes><![CDATA[42515]]></umbracoBytes>
+					<umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+				</Image>
+			</Folder>
+		</MediaSet>
+		<MediaSet>
+			<Image id="1202" key="083cefdc-654a-4bff-88af-4de7be052173" parentID="-1" level="1" creatorID="-1" sortOrder="6" createDate="2022-07-06T15:19:41" updateDate="2022-07-06T15:19:41" nodeName="Tobeer Hero" urlName="tobeer-hero" path="-1,1202" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/083cefdc654a4bff88af4de7be052173" mediaFilePath="/media/1lxdycck/tobeer-hero.jpg">
+				<umbracoFile><![CDATA[{"src":"/media/1lxdycck/tobeer-hero.jpg","crops":null}]]></umbracoFile>
+				<umbracoWidth><![CDATA[1920]]></umbracoWidth>
+				<umbracoHeight><![CDATA[1281]]></umbracoHeight>
+				<umbracoBytes><![CDATA[197433]]></umbracoBytes>
+				<umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+			</Image>
+		</MediaSet>
+		<MediaSet>
+			<Image id="1207" key="24ccf5a8-60a3-4c67-8640-062496a164fa" parentID="-1" level="1" creatorID="-1" sortOrder="7" createDate="2022-07-06T16:18:18" updateDate="2022-07-06T16:18:18" nodeName="Lorem Beer Hero" urlName="lorem-beer-hero" path="-1,1207" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/24ccf5a860a34c678640062496a164fa" mediaFilePath="/media/v10nyjfd/lorem-beer-hero.jpg">
+				<umbracoFile><![CDATA[{"src":"/media/v10nyjfd/lorem-beer-hero.jpg","crops":null}]]></umbracoFile>
+				<umbracoWidth><![CDATA[1920]]></umbracoWidth>
+				<umbracoHeight><![CDATA[1280]]></umbracoHeight>
+				<umbracoBytes><![CDATA[202695]]></umbracoBytes>
+				<umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+			</Image>
+		</MediaSet>
+		<MediaSet>
+			<Image id="1212" key="2c751f72-ebd1-446f-93de-bcf0f8b98396" parentID="-1" level="1" creatorID="-1" sortOrder="8" createDate="2022-07-06T16:19:06" updateDate="2022-07-06T16:19:06" nodeName="Ice Beer Hero" urlName="ice-beer-hero" path="-1,1212" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/2c751f72ebd1446f93debcf0f8b98396" mediaFilePath="/media/oqphklgr/ice-beer-hero.jpg">
+				<umbracoFile><![CDATA[{"src":"/media/oqphklgr/ice-beer-hero.jpg","crops":null}]]></umbracoFile>
+				<umbracoWidth><![CDATA[1920]]></umbracoWidth>
+				<umbracoHeight><![CDATA[1280]]></umbracoHeight>
+				<umbracoBytes><![CDATA[201318]]></umbracoBytes>
+				<umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+			</Image>
+		</MediaSet>
+	</MediaItems>
 </umbPackage>
