@@ -15,43 +15,21 @@
 		<PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
 		<PackageProjectUrl>https://www.enterspeed.com/</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/enterspeedhq/umbraco-demo-content</RepositoryUrl>
+		<Version>$(VersionPrefix)</Version>
+		<FileVersion></FileVersion>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Migrations\media\**" />
+	  <EmbeddedResource Remove="Migrations\media\**" />
+	  <None Remove="Migrations\media\**" />
+	</ItemGroup>
 
 	<ItemGroup>
 	  <None Remove=".gitignore" />
 	  <None Remove="azure-pipelines.yml" />
-	  <None Remove="Migrations\media\media\1lxdycck\tobeer-hero.jpg" />
-	  <None Remove="Migrations\media\media\j4qg5okx\beer-product.jpg" />
-	  <None Remove="Migrations\media\media\oqphklgr\ice-beer-hero.jpg" />
-	  <None Remove="Migrations\media\media\rpnbawgo\beer-404.jpg" />
-	  <None Remove="Migrations\media\media\ua0kfpk0\dev-beer-hero.jpg" />
-	  <None Remove="Migrations\media\media\v10nyjfd\lorem-beer-hero.jpg" />
 	  <None Remove="Migrations\package.xml" />
 	  <None Remove="NuGet.Config" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <EmbeddedResource Include="Migrations\media\media\1lxdycck\tobeer-hero.jpg">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Include="Migrations\media\media\j4qg5okx\beer-product.jpg">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Include="Migrations\media\media\oqphklgr\ice-beer-hero.jpg">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Include="Migrations\media\media\rpnbawgo\beer-404.jpg">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Include="Migrations\media\media\ua0kfpk0\dev-beer-hero.jpg">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Include="Migrations\media\media\v10nyjfd\lorem-beer-hero.jpg">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Include="Migrations\package.xml">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
