@@ -29,7 +29,12 @@
 	  <None Remove=".gitignore" />
 	  <None Remove="azure-pipelines.yml" />
 	  <None Remove="Migrations\package.xml" />
+	  <None Remove="Migrations\package.zip" />
 	  <None Remove="NuGet.Config" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Migrations\package.zip" />
 	</ItemGroup>
 
 	<ItemGroup>
