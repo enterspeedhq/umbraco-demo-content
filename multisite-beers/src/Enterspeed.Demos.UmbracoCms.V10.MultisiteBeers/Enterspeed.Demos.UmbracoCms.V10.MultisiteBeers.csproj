@@ -9,14 +9,15 @@
 
 		<ContentTargetFolders>.</ContentTargetFolders>
 		<Description>Enterspeed multisite beers demo content kit for Umbraco version 10</Description>
-		<PackageTags>Enterspeed, Umbraco 10</PackageTags>
+		<PackageTags>Enterspeed, Umbraco 10, umbraco-marketplace</PackageTags>
 
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
-		<PackageProjectUrl>https://www.enterspeed.com/</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/enterspeedhq/umbraco-demo-content</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/enterspeedhq/umbraco-demo-content</RepositoryUrl>
 		<Version>$(VersionPrefix)</Version>
 		<FileVersion></FileVersion>
+		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -39,6 +40,13 @@
 
 	<ItemGroup>
 		<PackageReference Include="Umbraco.Cms.Web.Common" Version="[10.0,11.0)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
