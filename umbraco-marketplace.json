@@ -9,7 +9,7 @@
   "LicenseType": "Free",
   "IssueTrackerUrl": "https://github.com/enterspeedhq/enterspeed-source-umbraco-cms/issues",
   "PackageType": "Package",
-  "PackagesByAuthor": [ "Enterspeed.Source.UmbracoCms.V7", "Enterspeed.Source.UmbracoCms.V8", "Enterspeed.Source.UmbracoCms.V9", "Enterspeed.Source.UmbracoCms.V10", "Enterspeed.Demos.UmbracoCms.V9.FairyTales", "Enterspeed.Demos.UmbracoCms.V10.FairyTales", "Enterspeed.Demos.UmbracoCms.V9.MultisiteBeers", "Enterspeed.Demos.UmbracoCms.V10.MultisiteBeers" ],
+  "PackagesByAuthor": [ "Enterspeed.Source.UmbracoCms.V8", "Enterspeed.Source.UmbracoCms.V9", "Enterspeed.Source.UmbracoCms.V10", "Enterspeed.Demos.UmbracoCms.V9.FairyTales", "Enterspeed.Demos.UmbracoCms.V10.FairyTales", "Enterspeed.Demos.UmbracoCms.V9.MultisiteBeers", "Enterspeed.Demos.UmbracoCms.V10.MultisiteBeers" ],
   "RelatedPackages": [
     {
       "PackageId": "Enterspeed.Demos.UmbracoCms.V9.FairyTales",
