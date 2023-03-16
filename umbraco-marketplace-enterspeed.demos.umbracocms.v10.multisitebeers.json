@@ -7,6 +7,7 @@
   },
   "Title": "MultisiteBeers demo content for Enterspeed",
   "Category": "Themes & Starter Kits",
+  "Description": "Enterspeed multisite beers demo content",
   "LicenseType": "Free",
   "IssueTrackerUrl": "https://github.com/enterspeedhq/enterspeed-source-umbraco-cms/issues",
   "PackageType": "Package",
