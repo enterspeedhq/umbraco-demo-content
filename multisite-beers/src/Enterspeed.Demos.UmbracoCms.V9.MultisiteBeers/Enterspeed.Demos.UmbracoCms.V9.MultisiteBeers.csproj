@@ -9,7 +9,7 @@
 
 		<ContentTargetFolders>.</ContentTargetFolders>
 		<Description>Enterspeed multisite beers demo content kit for Umbraco version 9</Description>
-		<PackageTags>Enterspeed, Umbraco 9, umbraco-marketplace</PackageTags>
+		<PackageTags>Enterspeed, Umbraco 9</PackageTags>
 
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
