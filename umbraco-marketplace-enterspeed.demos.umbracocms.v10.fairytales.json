@@ -1,0 +1,31 @@
+﻿{
+  "AuthorDetails": {
+    "Name": "Enterspeed",
+    "Description": "Enterspeed is a Speed Layer transforming, consolidating, and storing content from multiple data sources. Unique to Enterspeed is the blazing fast Microsoft Azure cloud storage: Data is prepared for delivery to frontends at publish time, meaning that load on underlying systems is minimised.",
+    "Url": "https://www.enterspeed.com/",
+    "ImageUrl": "https://raw.githubusercontent.com/enterspeedhq/enterspeed-source-umbraco-cms/develop/umbracoMarketplace/enterspeed-logo.png"
+  },
+  "Title": "FairyTales demo content for Enterspeed",
+  "Category": "Themes & Starter Kits",
+  "LicenseType": "Free",
+  "IssueTrackerUrl": "https://github.com/enterspeedhq/enterspeed-source-umbraco-cms/issues",
+  "PackageType": "Package",
+  "IsSubPackageOf": "Enterspeed.Source.UmbracoCms",
+  "RelatedPackages": [
+    {
+      "PackageId": "Enterspeed.Demos.UmbracoCms.V10.MultisiteBeers",
+      "Description": "Enterspeed multisite beers demo content kit"
+    }
+  ],
+  "VersionSpecificPackageIds": [
+    {
+      "UmbracoMajorVersion": 9,
+      "PackageId": "Enterspeed.Demos.UmbracoCms.V9.FairyTales"
+    }
+  ],
+  "Tags": [
+    "enterspeed",
+    "demo",
+    "content"
+  ]
+}
