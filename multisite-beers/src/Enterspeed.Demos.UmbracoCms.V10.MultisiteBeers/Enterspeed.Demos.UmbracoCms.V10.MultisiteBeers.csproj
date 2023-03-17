@@ -8,7 +8,7 @@
 		<Authors>Enterspeed</Authors>
 
 		<ContentTargetFolders>.</ContentTargetFolders>
-		<Description>Enterspeed multisite beers demo content kit for Umbraco version 10</Description>
+		<Description>Enterspeed multisite beers demo content kit for Umbraco</Description>
 		<PackageTags>Enterspeed, Umbraco 10, umbraco-marketplace</PackageTags>
 
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
