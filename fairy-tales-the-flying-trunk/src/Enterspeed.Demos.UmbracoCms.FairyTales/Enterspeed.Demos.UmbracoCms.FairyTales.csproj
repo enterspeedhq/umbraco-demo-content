@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<PackageId>Enterspeed.Demos.UmbracoCms.V10.FairyTales</PackageId>
+		<PackageId>Enterspeed.Demos.UmbracoCms.FairyTales</PackageId>
 
 		<TargetFramework>net6.0</TargetFramework>
 		<PackageVersion>0.0.0</PackageVersion>
@@ -9,7 +9,7 @@
 
 		<ContentTargetFolders>.</ContentTargetFolders>
 		<Description>Enterspeed fairy tales demo content kit for Umbraco</Description>
-		<PackageTags>Enterspeed, Umbraco 10, umbraco-marketplace</PackageTags>
+		<PackageTags>Enterspeed, Umbraco 9+, umbraco-marketplace</PackageTags>
 
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
@@ -31,9 +31,17 @@
 	  </EmbeddedResource>
 	</ItemGroup>
 
-	<ItemGroup>
-		<PackageReference Include="Umbraco.Cms.Web.Common" Version="[10.0,11.0)" />
+	<ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="9.4.0" />
 	</ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="10.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="11.0.0"/>
+    </ItemGroup>
 
 	<ItemGroup>
 	  <None Include="icon.png">

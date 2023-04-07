@@ -10,9 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		NuGet.Config = NuGet.Config
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Demos.UmbracoCms.V9.FairyTales", "src\Enterspeed.Demos.UmbracoCms.V9.FairyTales\Enterspeed.Demos.UmbracoCms.V9.FairyTales.csproj", "{9FE207C0-2C57-4456-82D0-A19D24416282}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Demos.UmbracoCms.V10.FairyTales", "src\Enterspeed.Demos.UmbracoCms.V10.FairyTales\Enterspeed.Demos.UmbracoCms.V10.FairyTales.csproj", "{61C06244-A26D-4B26-B276-AD1C0566864C}"
+
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Demos.UmbracoCms.FairyTales", "src\Enterspeed.Demos.UmbracoCms.FairyTales\Enterspeed.Demos.UmbracoCms.FairyTales.csproj", "{61C06244-A26D-4B26-B276-AD1C0566864C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
