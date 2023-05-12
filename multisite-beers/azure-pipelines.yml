@@ -26,10 +26,10 @@ variables:
     buildName: $[format('Release - {0}', variables.semVersion)]
   ${{ if startsWith(variables['Build.SourceBranch'], 'refs/heads/feature/') }}:
     # Versioning: 1.0.0-feature.branch.123
-    releaseOnNuget: false
+    releaseOnNuget: true
     semVersionBase: $[format('{0}-feature.{1}', variables.version, variables['Build.SourceBranchName'])]
     semVersionRev: $[counter(variables.semVersionBase, 0)]
-    semVersion: $[format('{0}.{1}', variables.semVersionBase, variables.semVersionRev)]
+    semVersion: $[format('{0}.{1}.{2}', variables.semVersionBase, variables.semVersionRev,'-alpha-1')]
     buildName: $[format('Feature - {0}', variables.semVersion)]
   ${{ if startsWith(variables['Build.SourceBranch'], 'refs/pull/') }}: # Pull requests
     # Versioning: 1.0.0-pr.1.123
@@ -95,7 +95,7 @@ stages:
             inputs:
               command: pack
               outputDir: '$(Build.ArtifactStagingDirectory)/NuGet'
-              packagesToPack: 'multisite-beers/src/Enterspeed.Demos.UmbracoCms.V9.MultisiteBeers/*.csproj;multisite-beers/src/Enterspeed.Demos.UmbracoCms.V10.MultisiteBeers/*.csproj'
+              packagesToPack: 'multisite-beers/src/Enterspeed.Demos.UmbracoCms.MultisiteBeers/*.csproj'
               versioningScheme: byEnvVar
               versionEnvVar: semVersion
 

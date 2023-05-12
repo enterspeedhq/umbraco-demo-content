@@ -5,23 +5,17 @@
     "Url": "https://www.enterspeed.com/",
     "ImageUrl": "https://raw.githubusercontent.com/enterspeedhq/enterspeed-source-umbraco-cms/develop/umbracoMarketplace/enterspeed-logo.png"
   },
-  "Title": "MultisiteBeers demo content for Enterspeed",
+  "Title": "FairyTales demo content for Enterspeed",
   "Category": "Themes & Starter Kits",
-  "Description": "Enterspeed multisite beers demo content",
+  "Description": "Enterspeed fairy tales demo content",
   "LicenseType": "Free",
   "IssueTrackerUrl": "https://github.com/enterspeedhq/enterspeed-source-umbraco-cms/issues",
   "PackageType": "Package",
   "IsSubPackageOf": "Enterspeed.Source.UmbracoCms",
   "RelatedPackages": [
     {
-      "PackageId": "Enterspeed.Demos.UmbracoCms.V10.FairyTales",
-      "Description": "Enterspeed fairy tales demo content kit"
-    }
-  ],
-  "VersionSpecificPackageIds": [
-    {
-      "UmbracoMajorVersion": 9,
-      "PackageId": "Enterspeed.Demos.UmbracoCms.V9.MultisiteBeers"
+      "PackageId": "Enterspeed.Demos.UmbracoCms.MultisiteBeers",
+      "Description": "Enterspeed multisite beers demo content kit"
     }
   ],
   "Tags": [
