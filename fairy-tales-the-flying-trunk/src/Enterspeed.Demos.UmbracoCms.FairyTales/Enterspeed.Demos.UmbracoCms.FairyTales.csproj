@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<PackageId>Enterspeed.Demos.UmbracoCms.FairyTales</PackageId>
 
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
 		<PackageVersion>0.0.0</PackageVersion>
 		<Authors>Enterspeed</Authors>
 
@@ -35,12 +35,12 @@
         <PackageReference Include="Umbraco.Cms.Web.Common" Version="9.4.0" />
 	</ItemGroup>
 
-    <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
-        <PackageReference Include="Umbraco.Cms.Web.Common" Version="10.0.0"/>
+    <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">	
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="10.0.0" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
-        <PackageReference Include="Umbraco.Cms.Web.Common" Version="11.0.0"/>
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="11.0.0" />
     </ItemGroup>
 
 	<ItemGroup>
