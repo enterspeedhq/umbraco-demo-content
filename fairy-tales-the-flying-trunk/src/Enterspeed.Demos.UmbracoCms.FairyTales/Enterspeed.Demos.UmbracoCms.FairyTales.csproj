@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageId>Enterspeed.Demos.UmbracoCms.FairyTales</PackageId>
+
+		<TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
+		<PackageVersion>0.0.0</PackageVersion>
+		<Authors>Enterspeed</Authors>
+
+		<ContentTargetFolders>.</ContentTargetFolders>
+		<Description>Enterspeed fairy tales demo content kit for Umbraco</Description>
+		<PackageTags>Enterspeed, Umbraco 9+, umbraco-marketplace</PackageTags>
+
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/enterspeedhq/umbraco-demo-content</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/enterspeedhq/umbraco-demo-content</RepositoryUrl>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove=".gitignore" />
+		<None Remove="azure-pipelines.yml" />
+		<None Remove="Migrations\package.xml" />
+		<None Remove="NuGet.Config" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Migrations\package.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
+		<PackageReference Include="Umbraco.Cms.Web.Common" Version="9.4.0" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+		<PackageReference Include="Umbraco.Cms.Web.Common" Version="10.0.0" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
+		<PackageReference Include="Umbraco.Cms.Web.Common" Version="11.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

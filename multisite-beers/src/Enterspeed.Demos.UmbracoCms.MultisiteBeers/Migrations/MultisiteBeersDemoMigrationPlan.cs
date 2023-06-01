@@ -1,7 +1,7 @@
 ﻿using System;
 using Umbraco.Cms.Core.Packaging;
 
-namespace Enterspeed.Demos.UmbracoCms.V9.MultisiteBeers.Migrations
+namespace Enterspeed.Demos.UmbracoCms.MultisiteBeers.Migrations
 {
     public class CustomPackageMigrationPlan : PackageMigrationPlan
     {
